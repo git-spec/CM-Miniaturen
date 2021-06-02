@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CM-Miniaturen</title>
+    <style>
+        :root {
+            --unit: 1rem;
+            --color-basic: #33BAFD; 
+            --color-typo: #232985;
+            --color-head: #85d8ff;
+            --color-body-1: #c1ebff;
+            --color-body-2: #dbf4ff;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: small;
+            background-color: var(--color-basic);
+            color: var(--color-typo);
+        }
+        header, main {
+            display: flex;
+            justify-content: center;
+            padding: var(--unit);
+
+        }
+        header img {
+            width: 70%;
+        }
+        main {
+            flex-flow: column;
+            padding-top: 0;
+        }
+        main h3 {
+            text-align: center;
+            line-height:  calc(var(--unit) * 1.8);
+            margin-bottom: var(--unit);
+            margin-bottom: 1.5rem;
+        }
+        main h3 a {
+            color: var(--color-body-1);
+        }
+        main table {
+            table-layout: auto;
+            width: 100%;
+            line-height: calc(var(--unit) * 1.6);
+            margin: auto;
+        }
+        /* main table thead {
+            display: block;
+        } */
+        main table thead tr {
+            background-color: var(--color-head);
+        }
+        main table thead tr th,
+        main table tbody tr td {
+            padding: calc(var(--unit) * .2);
+        }
+        main table thead tr th:first-child,
+        main table tbody tr td:first-child {
+            padding-left: calc(var(--unit) * .5);
+        }
+        main table thead tr th:last-child,
+        main table tbody tr td:last-child {
+            padding-right: calc(var(--unit) * .5);
+        }
+        main table thead tr th {
+            text-align: start;
+            padding-bottom:calc(var(--unit) * .4);
+            border-bottom: calc(var(--unit) * .2) solid var(--color-basic);
+        }
+        /* main table tbody {
+            height: 200px;
+            table-layout: fixed;
+            overflow: auto;
+        } */
+        main table tbody tr {
+            background-color: var(--color-body-2);
+        }
+        main table thead tr th:nth-child(1),
+        main table tbody tr td:nth-child(1),
+        main table thead tr th:nth-child(3),
+        main table tbody tr td:nth-child(3),
+        main table thead tr th:nth-child(4),
+        main table tbody tr td:nth-child(4),
+        main table thead tr th:nth-child(7),
+        main table tbody tr td:nth-child(7) {
+            width: calc(var(--unit) * 2);
+        }
+        main table thead tr th:nth-child(5),
+        main table thead tr td:nth-child(5) {
+            width: calc(var(--unit) * 1.5);
+        }
+        main table thead tr th:nth-child(6),
+        main table thead tr td:nth-child(6) {
+            width: calc(var(--unit) * 2.4);
+        }
+        main table thead tr th:nth-child(7),
+        main table tbody tr td:nth-child(7) {
+            text-align: right;
+        }
+        main table tbody tr:nth-child(2n) {
+            background-color: var(--color-body-1);
+        }
+        main table tbody tr td[colspan="7"] {
+            text-align: center;
+        }
+        main table tbody tr td a > div,
+        main table tbody tr td a > div > div {
+            border: calc(var(--unit) * .08) solid var(--color-typo);
+        }
+        main table tbody tr td a > div {
+            width: var(--unit);
+            display: inline-block;
+            height: calc(var(--unit) * .8);
+            padding: calc(var(--unit) * .05);
+        }
+        main table tbody tr td a > div > div {
+            width: 100%;
+            height: 100%;
+        }
+        main table tbody tr td a > div,
+        main table tbody tr td a > div > div {
+            border: calc(var(--unit) * .1) solid var(--color-typo);
+        }
+        footer {
+            text-align: center;
+        }
+        footer div {
+            width: calc(var(--unit) * 4.6);
+            height: calc(var(--unit) * 2.5);
+            display: inline-block;
+            position: fixed;
+            bottom: 0;
+        }
+        footer div a {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: calc(var(--unit) * -4.6 / 2)
+        }
+        footer div a div {
+            width: calc(var(--unit) * 3);
+            height: calc(var(--unit) * .3);
+            background-color: var(--color-typo);
+            border-radius: calc(var(--unit) * .3);
+            position: absolute;
+            bottom: calc(var(--unit) * 3 / 2);
+        }
+        footer div a div:first-child {
+            transform: rotate(-30deg);
+            left: 0;
+        }
+        footer div a div:last-child {
+            transform: rotate(30deg);
+            float: right;
+        }
+
+        @media only screen and (min-width: 720px) {
+            body {
+                font-size: medium;
+            }
+            header, main {
+                padding: calc(var(--unit) * 2);
+
+            }
+            header img {
+                width: 30%;
+            }
+            main {
+                padding-top: 0;
+            }
+            main table thead tr th:first-child,
+            main table tbody tr td:first-child {
+                padding-left: calc(var(--unit) * 1.5);
+            }
+            main table thead tr th:last-child,
+            main table tbody tr td:last-child {
+                padding-right: calc(var(--unit) * 1.5);
+            }
+            main table thead tr th:nth-child(1),
+            main table thead tr td:nth-child(1) {
+                width: calc(var(--unit) * 5);
+            }
+            main table thead tr th:nth-child(1),
+            main table thead tr td:nth-child(1),
+            main table thead tr th:nth-child(3),
+            main table thead tr td:nth-child(3),
+            main table thead tr th:nth-child(4),
+            main table thead tr td:nth-child(4),
+            main table thead tr th:nth-child(7),
+            main table thead tr td:nth-child(7) {
+                width: calc(var(--unit) * 5);
+            }
+            main table thead tr th:nth-child(5),
+            main table thead tr td:nth-child(5) {
+                width: calc(var(--unit) * 4);
+            }
+            main table thead tr th:nth-child(6),
+            main table thead tr td:nth-child(6) {
+                width: calc(var(--unit) * 3);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./imgs/CM_Logo.gif" alt="CM-Logo">
+    </header>
+    <main>
+        <h3>Serien:<br />
+            <a href="#cm">CM</a>
+            &nbsp;&nbsp;
+            <a href="#cmkr">CMKR</a>
+            &nbsp;&nbsp;
+            <a href="#cmp">CMP</a>
+            &nbsp;&nbsp;
+            <a href="#cmw">CMW</a>
+            &nbsp;&nbsp;
+            <a href="#cm-sond">CM-SOND</a>
+        </h3>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nr.</th>
+                    <th>Name</th>
+                    <th>Typ</th>
+                    <th>Land</th>
+                    <th>St.</th>
+                    <th>Jahr</th>
+                    <th>Bild</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="cm" colspan="7">CM</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td id="cmkr" colspan="7">CMKR</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Rufigi</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Elbing</td>
+                    <td>FR</td>
+                    <td>D</td>
+                    <td>1</td>
+                    <td>1925</td>
+                    <td><a href="#"><div><div></div></div></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <div>
+            <a href="#">
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
