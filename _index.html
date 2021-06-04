@@ -144,8 +144,7 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            left: calc(var(--unit) * -4.6 / 2);
-            visibility: hidden;
+            left: calc(var(--unit) * -4.6 / 2)
         }
         footer div a div {
             width: calc(var(--unit) * 3);
@@ -213,17 +212,6 @@
             }
         }
     </style>
-    <script type="text/javascript" charset="utf-8">
-        window.onscroll = function() {
-        let prevPageY = Math.abs(window.pageYOffset);
-            if (window.pageYOffset > 100 && Math.abs(window.pageYOffset) >= prevPageY) {
-                document.querySelector('.top').style.visibility = 'visible';
-            } else {
-                document.querySelector('.top').style.visibility = 'hidden';
-            };
-            prevPageY =Math.abs( window.pageYOffset);
-        }
-    </script>
 </head>
 <body>
     <header>
@@ -607,7 +595,7 @@
     </main>
     <footer>
         <div>
-            <a class="top" href="#">
+            <a href="#">
                 <div></div>
                 <div></div>
             </a>
