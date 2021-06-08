@@ -216,11 +216,13 @@
     <script type="text/javascript" charset="utf-8">
         window.onscroll = function() {
             let prevPageY = Math.abs(window.pageYOffset);
-            if (window.pageYOffset > 100 && Math.abs(window.pageYOffset) >= prevPageY) {
-                document.querySelector('.top').style.visibility = 'visible';
-            } else {
-                document.querySelector('.top').style.visibility = 'hidden';
-            };
+            setTimeout(() => {
+                if (window.pageYOffset > 100 && Math.abs(window.pageYOffset) >= prevPageY) {
+                    document.querySelector('.top').style.visibility = 'visible';
+                } else {
+                    document.querySelector('.top').style.visibility = 'hidden';
+                };
+            }, 400);
             prevPageY =Math.abs( window.pageYOffset);
         }
         // load data
