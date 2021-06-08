@@ -134,7 +134,7 @@
             text-align: center;
         }
         footer div {
-            width: calc(var(--unit) * 4.6);
+            width: calc(var(--unit) * 4.8);
             height: calc(var(--unit) * 2.5);
             display: inline-block;
             position: fixed;
@@ -144,7 +144,7 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            left: calc(var(--unit) * -4.6 / 2);
+            left: calc(var(--unit) * -4.8 / 2);
             visibility: hidden;
         }
         footer div a div {
@@ -223,15 +223,56 @@
             };
             prevPageY =Math.abs( window.pageYOffset);
         }
-
+        // load data
         let xhr = new XMLHttpRequest();
         xhr.open('GET', '/data/beispielliste_cm.json');
         xhr.send();
         xhr.onload = function () {
             if (xhr.status === 200) {
                 let ships = JSON.parse(xhr.response);
-console.log(ships);
-
+                let tbody = document.querySelector('tbody');
+                for(let i = 0; i < ships.length; i++) {
+                    for (y = 0; y < tbody.length; i++) {
+                        if (!tbody.children[y].textContent.includes(ships[i].serie)) {
+                            let tr = document.createElement('tr');
+                            let td = document.createElement('td');
+                            td.innerText = ships[i].serie;
+                            td.setAttribute('colspan', '7');
+                            td.id = ships[i].serie;
+                            tr.appendChild(td);
+                            tbody.appendChild(tr);
+                        };
+                    };
+                    let tr = document.createElement('tr');
+                    for (let key in ships[i]) {
+                        let td = document.createElement('td');
+                        if (ships[i][key] !== ships[i]['SERIE']) {
+                            td.innerText = ships[i][key];
+                            tr.appendChild(td);
+                        }
+                    };
+                    // set link to image
+                    let td = document.createElement('td');
+                    let img = new Image();
+                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`;
+                    img.id = `${ships[i]['SERIE']}_${ships[i]['NR']}`;
+                    img.onload = function() {
+                        if (img) {
+                            let a = document.createElement('a');
+                            let div1 = document.createElement('div');
+                            let div2 = document.createElement('div');
+                            div1.appendChild(div2);
+                            a.appendChild(div1);
+                            a.setAttribute('href',`/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`);
+                            td.appendChild(a);
+                        };
+                    }
+                    tr.appendChild(td);
+                    tbody.appendChild(tr);
+                };
+                let table = document.querySelector('table');
+                table.appendChild(tbody);
+                    console.log(tbody.children[0].textContent);
             } else {
                 reject('connection problem');
             };
@@ -266,356 +307,7 @@ console.log(ships);
                     <th>Bild</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td id="cm" colspan="7">CM</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>242</td>
-                    <td>Der Deutsche</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1924/35</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>243</td>
-                    <td>Sierra Cordoba (2) KDF</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1923/34</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>245</td>
-                    <td>Toledo</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1923</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>250</td>
-                    <td>Europa I</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>251</td>
-                    <td>Europa II</td>
-                    <td></td>
-                    <td>D</td>
-                    <td></td>
-                    <td>1889</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>252</td>
-                    <td>Prinz Friedrich Wilhelm</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1908</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>260</td>
-                    <td>Edfu</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>2</td>
-                    <td>1903</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td id="cmkr" colspan="7">CMKR</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-            </tbody>
+            <tbody></tbody>
         </table>
     </main>
     <footer>
