@@ -222,6 +222,46 @@
             }
         }
     </style>
+</head>
+<body>
+    <header>
+        <img src="./imgs/CM_Logo.gif" alt="CM-Logo">
+    </header>
+    <main>
+        <h3>Serien:<br />
+            <a href="#cm">CM</a>
+            &nbsp;&nbsp;
+            <a href="#cmkr">CMKR</a>
+            &nbsp;&nbsp;
+            <a href="#cmp">CMP</a>
+            &nbsp;&nbsp;
+            <a href="#cmw">CMW</a>
+            &nbsp;&nbsp;
+            <a href="#cm-sond">CM-SOND</a>
+        </h3>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nr.</th>
+                    <th>Name</th>
+                    <th>Typ</th>
+                    <th>Land</th>
+                    <th>St.</th>
+                    <th>Jahr</th>
+                    <th>Bild</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </main>
+    <footer>
+        <div>
+            <a class="top" href="#">
+                <div></div>
+                <div></div>
+            </a>
+        </div>
+    </footer>
     <script type="text/javascript" charset="utf-8">
         window.onscroll = function() {
             let prevPageY = Math.abs(window.pageYOffset);
@@ -264,7 +304,7 @@
                     // set link to image
                     let td = document.createElement('td');
                     let img = new Image();
-                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`;
+                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_gross/${ships[i]['SERIE']}_${ships[i]['NR']}_gr.jpg`;
                     img.id = `${ships[i]['SERIE']}_${ships[i]['NR']}`;
                     img.onload = function() {
                         if (img) {
@@ -273,8 +313,11 @@
                             let div2 = document.createElement('div');
                             div1.appendChild(div2);
                             a.appendChild(div1);
-                            a.setAttribute('href',`/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`);
-                            a.addEventListener('click', )
+                            a.setAttribute('href',`/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_gross/${ships[i]['SERIE']}_${ships[i]['NR']}_gr.jpg`);
+                            // a.addEventListener('click', function (e) {
+                            //     e.preventDefault();
+                            //     let div = document.createElement('div');
+                            // });
                             td.appendChild(a);
                         };
                     }
@@ -288,45 +331,5 @@
             };
         }
     </script>
-</head>
-<body>
-    <header>
-        <img src="./imgs/CM_Logo.gif" alt="CM-Logo">
-    </header>
-    <main>
-        <h3>Serien:<br />
-            <a href="#cm">CM</a>
-            &nbsp;&nbsp;
-            <a href="#cmkr">CMKR</a>
-            &nbsp;&nbsp;
-            <a href="#cmp">CMP</a>
-            &nbsp;&nbsp;
-            <a href="#cmw">CMW</a>
-            &nbsp;&nbsp;
-            <a href="#cm-sond">CM-SOND</a>
-        </h3>
-        <table cellspacing="0">
-            <thead>
-                <tr>
-                    <th>Nr.</th>
-                    <th>Name</th>
-                    <th>Typ</th>
-                    <th>Land</th>
-                    <th>St.</th>
-                    <th>Jahr</th>
-                    <th>Bild</th>
-                </tr>
-            </thead>
-            <tbody></tbody>
-        </table>
-    </main>
-    <footer>
-        <div>
-            <a class="top" href="#">
-                <div></div>
-                <div></div>
-            </a>
-        </div>
-    </footer>
 </body>
 </html>
