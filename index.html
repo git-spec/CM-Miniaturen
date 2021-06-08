@@ -243,16 +243,15 @@
                 let ships = JSON.parse(xhr.response);
                 let tbody = document.querySelector('tbody');
                 for(let i = 0; i < ships.length; i++) {
-                    for (y = 0; y < tbody.length; i++) {
-                        if (!tbody.children[y].textContent.includes(ships[i]['SERIE'])) {
-                            let tr = document.createElement('tr');
-                            let td = document.createElement('td');
-                            td.innerText = ships[i].serie;
-                            td.setAttribute('colspan', '7');
-                            td.id = ships[i].serie;
-                            tr.appendChild(td);
-                            tbody.appendChild(tr);
-                        };
+                    if (ships[i].NR === '') {
+                        let tr = document.createElement('tr');
+                        let td = document.createElement('td');
+                        td.innerText = ships[i].SERIE;
+                        td.setAttribute('colspan', '7');
+                        td.id = ships[i].SERIE;
+                        tr.appendChild(td);
+                        tbody.appendChild(tr);
+                        i++;
                     };
                     let tr = document.createElement('tr');
                     for (let key in ships[i]) {

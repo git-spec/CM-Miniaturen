@@ -1,4 +1,13 @@
 [
+  { 
+    "SERIE":"CM",
+    "NR": "",
+    "NAME": "",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": ""
+  },
  { 
    "SERIE":"CM",
    "NR": "1",
