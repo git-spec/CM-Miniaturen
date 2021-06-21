@@ -31,9 +31,11 @@
             padding: var(--unit);
 
         }
+        /* logo */
         header img {
             width: 50%;
         }
+        /* main */
         main {
             flex-flow: column;
             padding-top: 0;
@@ -47,10 +49,12 @@
         main h3 a {
             color: var(--color-body-1);
         }
+        /* table */
         main table {
             table-layout: auto;
             width: 100%;
             line-height: calc(var(--unit) * 1.6);
+            vertical-align: middle;
             margin: auto;
         }
         main table thead tr {
@@ -81,6 +85,7 @@
         main table tbody tr {
             background-color: var(--color-body-2);
         }
+        /* fix sizes for columns */
         main table thead tr th:nth-child(1),
         main table tbody tr td:nth-child(1),
         main table thead tr th:nth-child(3),
@@ -109,24 +114,80 @@
         main table tbody tr td[colspan="7"] {
             text-align: center;
         }
-        main table tbody tr td a > div,
-        main table tbody tr td a > div > div {
-            border: calc(var(--unit) * .08) solid var(--color-typo);
+        /* link to img */
+        main table tbody tr td a {
+            position: relative;
+            vertical-align: middle;
         }
-        main table tbody tr td a > div {
-            width: var(--unit);
-            display: inline-block;
-            height: calc(var(--unit) * .8);
-            padding: calc(var(--unit) * .05);
+        main table tbody tr td a > img.pic {
+            height: calc(var(--unit) * .7);
         }
-        main table tbody tr td a > div > div {
+        main table tbody tr td a > img:last-of-type {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            line-height: normal;
+            display: none;
+        }
+        /* popup */
+        .popup {
             width: 100%;
             height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        main table tbody tr td a > div,
-        main table tbody tr td a > div > div {
-            border: calc(var(--unit) * .1) solid var(--color-typo);
+        .popup > div {
+            position: relative;
         }
+        .popup > div > img {
+            max-width: 80vw;
+            max-height: 80vh;
+        }
+        /* close button */
+        .close {
+            width: calc(var(--unit) * 2);
+            height: calc(var(--unit) * 2);
+            position: absolute;
+            top: calc(var(--unit) * -3);
+            right: 0;
+            cursor: pointer;
+            display: inline-block;
+
+        }
+        .close div {
+            width: calc(var(--unit) * 0.2);
+            height: calc(var(--unit) * 2);
+            background-color: white;
+            position: absolute;
+            right: 50%;
+        }
+        .close div:first-child {
+            transform: rotate(45deg);
+        }
+        .close div:last-child {
+            transform: rotate(-45deg);
+        }
+        /* fade in */
+        .fade-in {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+        @-webkit-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity:1 ;}
+        }
+        /* footer */
         footer {
             height: calc(var(--unit) * 3);
             text-align: center;
@@ -170,6 +231,9 @@
         @media only screen and (min-width: 780px) {
             main table {
                 width: 70%;
+            }
+            .popup > img {
+                max-width: 60vw;
             }
         }
         @media only screen and (min-width: 960px) {
@@ -264,6 +328,7 @@
         </div>
     </footer>
     <script type="text/javascript" charset="utf-8">
+        // scroll to top
         window.onscroll = function() {
             let prevPageY = Math.abs(window.pageYOffset);
             setTimeout(() => {
@@ -274,6 +339,38 @@
                 };
             }, 400);
             prevPageY =Math.abs( window.pageYOffset);
+        }
+        /* image handler */
+        function hideImg(evt, el, item) {
+            if (evt.target.classList.contains('pic') || evt.target.classList.contains(`${item['SERIE']}-${item['NR']}`) && evt.target.nextSibling.style.display === 'block') {
+                return;
+            } else {
+                el.style.display = 'none';
+            };
+        }
+        /* popup handler */
+        function handlePopup(item) {
+            let popup = document.createElement('div');
+            popup.className = 'popup fade-in';
+            let popupWrapper = document.createElement('div');
+            let popupImg = new Image();
+            popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${item['NR']}_gr.jpg`;
+            popupWrapper.appendChild(popupImg);
+            /* close button */
+            let btnClose = document.createElement('span');
+            btnClose.className = 'close';
+            let bar1 = document.createElement('div');
+            let bar2 = document.createElement('div');
+            btnClose.appendChild(bar1);
+            btnClose.appendChild(bar2);
+            popupWrapper.appendChild(btnClose);
+            popup.appendChild(popupWrapper);
+            btnClose.addEventListener('click', function (e) {
+                e.preventDefault();
+                popup.remove();
+            });
+            let body = document.querySelector('body');
+            body.appendChild(popup);
         }
         // load data
         let xhr = new XMLHttpRequest();
@@ -305,20 +402,54 @@
                     // set link to image
                     let td = document.createElement('td');
                     let img = new Image();
-                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_gross/${ships[i]['SERIE']}_${ships[i]['NR']}_gr.jpg`;
+                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`;
                     img.id = `${ships[i]['SERIE']}_${ships[i]['NR']}`;
+                    img.className = 'fade-in';
+                    img.alt = `${ships[i]['NAME']}`;
                     img.onload = function() {
                         if (img) {
+                            /* image link */
                             let a = document.createElement('a');
-                            let div1 = document.createElement('div');
-                            let div2 = document.createElement('div');
-                            div1.appendChild(div2);
-                            a.appendChild(div1);
+                            let pic = new Image();
+                            pic.src = '/imgs/icon_pic.svg';
+                            pic.className = 'pic';
+                            a.appendChild(pic);
                             a.setAttribute('href',`/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_gross/${ships[i]['SERIE']}_${ships[i]['NR']}_gr.jpg`);
-                            // a.addEventListener('click', function (e) {
-                            //     e.preventDefault();
-                            //     let div = document.createElement('div');
-                            // });
+                            a.className = `${ships[i]['SERIE']}-${ships[i]['NR']}`;
+                            a.appendChild(img);
+                            /* mobile */
+                            a.addEventListener('touchstart', function(e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
+                            });
+                            a.addEventListener('touchend', function(e) {
+                                document.addEventListener('touchstart', function(e) {
+                                    hideImg(e, img, ships[i]);
+                                    document.removeEventListener('touchstart', hideImg);
+                                });
+                            });
+                            /* desktop */
+                            a.addEventListener('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
+                            });
+                            img.addEventListener('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.cursor = 'zoom-in';
+                            });
+                            a.addEventListener('mouseout', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'none';
+                            });
+                            img.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                handlePopup(ships[i]);
+                            });
+                            img.addEventListener('touchstart', function(e) {
+                                e.preventDefault();
+                                e.target.style.display = 'none';
+                                handlePopup(ships[i]);
+                            });
                             td.appendChild(a);
                         };
                     }
