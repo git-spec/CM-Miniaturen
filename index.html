@@ -328,9 +328,13 @@
         </div>
     </footer>
     <script type="text/javascript" charset="utf-8">
-        // scroll to top
-        window.onscroll = function() {
-            let prevPageY = Math.abs(window.pageYOffset);
+        let ships;
+        let prevPageY = Math.abs(window.pageYOffset);
+        let scrollHeight = 0;
+        let views = 0;
+        let tbody = document.querySelector('tbody');
+        /* scroll to top */
+        function scrollTop() {
             setTimeout(() => {
                 if (window.pageYOffset > 100 && Math.abs(window.pageYOffset) >= prevPageY) {
                     document.querySelector('.top').style.visibility = 'visible';
@@ -339,6 +343,92 @@
                 };
             }, 400);
             prevPageY =Math.abs( window.pageYOffset);
+        }
+        /* load data */
+        function loadData(arr, count) {
+            let num = 0;
+            if (count === 0) {
+                num = 40;
+            } else {
+                num = 10;
+            };
+            for(let i = count; i < count + num && i < arr.length; i++) {
+                if (arr[i].NR === '') {
+                    let tr = document.createElement('tr');
+                    let td = document.createElement('td');
+                    td.innerText = arr[i].SERIE;
+                    td.setAttribute('colspan', '7');
+                    td.id = arr[i].SERIE;
+                    tr.appendChild(td);
+                    tbody.appendChild(tr);
+                };
+                let tr = document.createElement('tr');
+                for (let key in arr[i]) {
+                    let td = document.createElement('td');
+                    if (arr[i][key] !== arr[i]['SERIE']) {
+                        td.innerText = arr[i][key];
+                        tr.appendChild(td);
+                    };
+                };
+                // set link to image
+                let td = document.createElement('td');
+                let img = new Image();
+                img.src = `/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_klein/${arr[i]['SERIE']}_${arr[i]['NR']}_kl.jpg`;
+                img.id = `${arr[i]['SERIE']}_${arr[i]['NR']}`;
+                img.className = 'fade-in';
+                img.alt = `${arr[i]['NAME']}`;
+                img.onload = function() {
+                    if (img) {
+                        /* image link */
+                        let a = document.createElement('a');
+                        let pic = new Image();
+                        pic.src = '/imgs/icon_pic.svg';
+                        pic.className = 'pic';
+                        a.appendChild(pic);
+                        a.setAttribute('href',`/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_gross/${arr[i]['SERIE']}_${arr[i]['NR']}_gr.jpg`);
+                        a.className = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
+                        a.appendChild(img);
+                        /* mobile */
+                        a.addEventListener('touchstart', function(e) {
+                            e.preventDefault();
+                            img.style.display = 'block';
+                        });
+                        a.addEventListener('touchend', function(e) {
+                            document.addEventListener('touchstart', function(e) {
+                                hideImg(e, img, arr[i]);
+                                document.removeEventListener('touchstart', hideImg);
+                            });
+                        }, true);
+                        /* desktop */
+                        a.addEventListener('mouseover', function (e) {
+                            e.preventDefault();
+                            img.style.display = 'block';
+                        });
+                        img.addEventListener('mouseover', function (e) {
+                            e.preventDefault();
+                            img.style.cursor = 'zoom-in';
+                        });
+                        a.addEventListener('mouseout', function (e) {
+                            e.preventDefault();
+                            img.style.display = 'none';
+                        });
+                        img.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            handlePopup(arr[i]);
+                        });
+                        img.addEventListener('touchstart', function(e) {
+                            e.preventDefault();
+                            e.target.style.display = 'none';
+                            handlePopup(arr[i]);
+                        });
+                        td.appendChild(a);
+                    };
+                }
+                tr.appendChild(td);
+                tbody.appendChild(tr);
+            };
+            let table = document.querySelector('table');
+            table.appendChild(tbody);
         }
         /* image handler */
         function hideImg(evt, el, item) {
@@ -354,7 +444,7 @@
             popup.className = 'popup fade-in';
             let popupWrapper = document.createElement('div');
             let popupImg = new Image();
-            popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${item['NR']}_gr.jpg`;
+            popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${el['NR']}_gr.jpg`;
             popupWrapper.appendChild(popupImg);
             /* close button */
             let btnClose = document.createElement('span');
@@ -372,94 +462,29 @@
             let body = document.querySelector('body');
             body.appendChild(popup);
         }
-        // load data
+        /* get data */
         let xhr = new XMLHttpRequest();
         xhr.open('GET', '/data/beispielliste_cm.json');
         xhr.send();
         xhr.onload = function () {
             if (xhr.status === 200) {
-                let ships = JSON.parse(xhr.response);
-                let tbody = document.querySelector('tbody');
-                for(let i = 0; i < ships.length; i++) {
-                    if (ships[i].NR === '') {
-                        let tr = document.createElement('tr');
-                        let td = document.createElement('td');
-                        td.innerText = ships[i].SERIE;
-                        td.setAttribute('colspan', '7');
-                        td.id = ships[i].SERIE;
-                        tr.appendChild(td);
-                        tbody.appendChild(tr);
-                        i++;
-                    };
-                    let tr = document.createElement('tr');
-                    for (let key in ships[i]) {
-                        let td = document.createElement('td');
-                        if (ships[i][key] !== ships[i]['SERIE']) {
-                            td.innerText = ships[i][key];
-                            tr.appendChild(td);
-                        }
-                    };
-                    // set link to image
-                    let td = document.createElement('td');
-                    let img = new Image();
-                    img.src = `/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_klein/${ships[i]['SERIE']}_${ships[i]['NR']}_kl.jpg`;
-                    img.id = `${ships[i]['SERIE']}_${ships[i]['NR']}`;
-                    img.className = 'fade-in';
-                    img.alt = `${ships[i]['NAME']}`;
-                    img.onload = function() {
-                        if (img) {
-                            /* image link */
-                            let a = document.createElement('a');
-                            let pic = new Image();
-                            pic.src = '/imgs/icon_pic.svg';
-                            pic.className = 'pic';
-                            a.appendChild(pic);
-                            a.setAttribute('href',`/imgs/${ships[i]['SERIE']}/${ships[i]['SERIE']}_gross/${ships[i]['SERIE']}_${ships[i]['NR']}_gr.jpg`);
-                            a.className = `${ships[i]['SERIE']}-${ships[i]['NR']}`;
-                            a.appendChild(img);
-                            /* mobile */
-                            a.addEventListener('touchstart', function(e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            a.addEventListener('touchend', function(e) {
-                                document.addEventListener('touchstart', function(e) {
-                                    hideImg(e, img, ships[i]);
-                                    document.removeEventListener('touchstart', hideImg);
-                                });
-                            });
-                            /* desktop */
-                            a.addEventListener('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            img.addEventListener('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.cursor = 'zoom-in';
-                            });
-                            a.addEventListener('mouseout', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'none';
-                            });
-                            img.addEventListener('click', function(e) {
-                                e.preventDefault();
-                                handlePopup(ships[i]);
-                            });
-                            img.addEventListener('touchstart', function(e) {
-                                e.preventDefault();
-                                e.target.style.display = 'none';
-                                handlePopup(ships[i]);
-                            });
-                            td.appendChild(a);
-                        };
-                    }
-                    tr.appendChild(td);
-                    tbody.appendChild(tr);
-                };
-                let table = document.querySelector('table');
-                table.appendChild(tbody);
+                ships = JSON.parse(xhr.response);
+                loadData(ships, views);
             } else {
                 reject('connection problem');
+            };
+        }
+        /* scroll hanlder */
+        window.onscroll = function() {
+            scrollTop();
+            if (prevPageY > scrollHeight) {
+                if (views === 0) {
+                    views += 40;
+                } else {
+                    views += 10;
+                };
+                loadData(ships, views);
+                scrollHeight += 300;
             };
         }
     </script>
