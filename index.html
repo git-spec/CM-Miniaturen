@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schiffsminiaturen im Maßstab 1:1200">
     <title>CM-Miniaturen</title>
     <style>
         :root {
@@ -26,7 +27,15 @@
             color: var(--color-typo);
         }
         header, main {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
             display: flex;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            -o-justify-content: center;
             justify-content: center;
             padding: var(--unit);
 
@@ -37,6 +46,10 @@
         }
         /* main */
         main {
+            -webkit-flex-flow: column;
+            -moz-flex-flow: column;
+            -ms-flex-flow: column;
+            -o-flex-flow: column;
             flex-flow: column;
             padding-top: 0;
         }
@@ -137,8 +150,20 @@
             position: fixed;
             top: 0;
             left: 0;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
             display: flex;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            -o-justify-content: center;
             justify-content: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            -o-align-items: center;
             align-items: center;
         }
         .popup > div {
@@ -167,22 +192,39 @@
             right: 50%;
         }
         .close div:first-child {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
             transform: rotate(45deg);
         }
         .close div:last-child {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
             transform: rotate(-45deg);
         }
         /* fade in */
         .fade-in {
             visibility: visible;
             -webkit-animation: fadeIn 1s;
+            -moz-animation: fadeIn 1s;
+            -o-animation: fadeIn 1s;
             animation: fadeIn 1s;
         }
         @-webkit-keyframes fadeIn {
             from {opacity: 0;} 
             to {opacity: 1;}
         }
-
+        @-moz-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+        @-o-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
         @keyframes fadeIn {
             from {opacity: 0;}
             to {opacity:1 ;}
@@ -215,10 +257,18 @@
             bottom: calc(var(--unit) * 3 / 2);
         }
         footer div a div:first-child {
+            -webkit-transform: rotate(-30deg);
+            -moz-transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+            -o-transform: rotate(-30deg);
             transform: rotate(-30deg);
             left: 0;
         }
         footer div a div:last-child {
+            -webkit-transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            -o-transform: rotate(30deg);
             transform: rotate(30deg);
             float: right;
         }
@@ -388,39 +438,87 @@
                         a.setAttribute('href',`/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_gross/${arr[i]['SERIE']}_${arr[i]['NR']}_gr.jpg`);
                         a.className = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
                         a.appendChild(img);
-                        /* mobile */
-                        a.addEventListener('touchstart', function(e) {
-                            e.preventDefault();
-                            img.style.display = 'block';
-                        });
-                        a.addEventListener('touchend', function(e) {
-                            document.addEventListener('touchstart', function(e) {
-                                hideImg(e, img, arr[i]);
-                                document.removeEventListener('touchstart', hideImg);
+                        /* event handler */
+                        if (a.addEventListener) {
+                            /* mobile */
+                            a.addEventListener('touchstart', function(e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
                             });
-                        }, true);
-                        /* desktop */
-                        a.addEventListener('mouseover', function (e) {
-                            e.preventDefault();
-                            img.style.display = 'block';
-                        });
-                        img.addEventListener('mouseover', function (e) {
-                            e.preventDefault();
-                            img.style.cursor = 'zoom-in';
-                        });
-                        a.addEventListener('mouseout', function (e) {
-                            e.preventDefault();
-                            img.style.display = 'none';
-                        });
-                        img.addEventListener('click', function(e) {
-                            e.preventDefault();
-                            handlePopup(arr[i]);
-                        });
-                        img.addEventListener('touchstart', function(e) {
-                            e.preventDefault();
-                            e.target.style.display = 'none';
-                            handlePopup(arr[i]);
-                        });
+                            a.addEventListener('touchend', function(e) {
+                                document.addEventListener('touchstart', function(e) {
+                                    hideImg(e, img, arr[i]);
+                                    document.removeEventListener('touchstart', hideImg);
+                                });
+                            }, true);
+                            /* desktop */
+                            a.addEventListener('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
+                            });
+                            a.addEventListener('mouseout', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'none';
+                            });
+                        } else if (a.attachEvent) {
+                            /* mobile */
+                            a.attachEvent('touchstart', function(e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
+                            });
+                            a.attachEvent('touchend', function(e) {
+                                document.addEventListener('touchstart', function(e) {
+                                    hideImg(e, img, arr[i]);
+                                    document.removeEventListener('touchstart', hideImg);
+                                });
+                            }, true);
+                            /* desktop */
+                            a.attachEvent('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'block';
+                            });
+                            a.attachEvent('mouseout', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'none';
+                            });
+                        };
+                        if (img.addEventListener) {
+                            /* mobile */
+                            img.addEventListener('touchstart', function(e) {
+                                e.preventDefault();
+                                e.target.style.display = 'none';
+                                handlePopup(arr[i]);
+                            });
+                            /* desktop */
+                            img.addEventListener('click', function(e) {
+                                e.preventDefault();
+                                handlePopup(arr[i]);
+                            });
+                            img.addEventListener('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.cursor = 'zoom-in';
+                            });
+                            a.addEventListener('mouseout', function (e) {
+                                e.preventDefault();
+                                img.style.display = 'none';
+                            });
+                        } else if (img.attachEvent) {
+                            /* mobile */
+                            img.attachEvent('touchstart', function(e) {
+                                e.preventDefault();
+                                e.target.style.display = 'none';
+                                handlePopup(arr[i]);
+                            });
+                            /* desktop */
+                            img.attachEvent('click', function(e) {
+                                e.preventDefault();
+                                handlePopup(arr[i]);
+                            });
+                            img.attachEvent('mouseover', function (e) {
+                                e.preventDefault();
+                                img.style.cursor = 'zoom-in';
+                            });
+                        };
                         td.appendChild(a);
                     };
                 }
@@ -444,7 +542,7 @@
             popup.className = 'popup fade-in';
             let popupWrapper = document.createElement('div');
             let popupImg = new Image();
-            popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${el['NR']}_gr.jpg`;
+            popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${item['NR']}_gr.jpg`;
             popupWrapper.appendChild(popupImg);
             /* close button */
             let btnClose = document.createElement('span');
@@ -455,10 +553,17 @@
             btnClose.appendChild(bar2);
             popupWrapper.appendChild(btnClose);
             popup.appendChild(popupWrapper);
-            btnClose.addEventListener('click', function (e) {
-                e.preventDefault();
-                popup.remove();
-            });
+            if (btnClose.addEventListener) {
+                btnClose.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    popup.remove();
+                });
+            } else if (btn.Close.attachEvent) {
+                btnClose.attachEvent('click', function (e) {
+                    e.preventDefault();
+                    popup.remove();
+                });
+            };
             let body = document.querySelector('body');
             body.appendChild(popup);
         }
