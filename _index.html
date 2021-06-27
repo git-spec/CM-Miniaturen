@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schiffsminiaturen im Maßstab 1:1200">
     <title>CM-Miniaturen</title>
     <style>
         :root {
@@ -21,20 +22,34 @@
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-size: small;
+            font-size: 11px;
             background-color: var(--color-basic);
             color: var(--color-typo);
         }
         header, main {
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
             display: flex;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            -o-justify-content: center;
             justify-content: center;
             padding: var(--unit);
 
         }
+        /* logo */
         header img {
-            width: 70%;
+            width: 50%;
         }
+        /* main */
         main {
+            -webkit-flex-flow: column;
+            -moz-flex-flow: column;
+            -ms-flex-flow: column;
+            -o-flex-flow: column;
             flex-flow: column;
             padding-top: 0;
         }
@@ -47,21 +62,20 @@
         main h3 a {
             color: var(--color-body-1);
         }
+        /* table */
         main table {
             table-layout: auto;
             width: 100%;
             line-height: calc(var(--unit) * 1.6);
+            vertical-align: middle;
             margin: auto;
         }
-        /* main table thead {
-            display: block;
-        } */
         main table thead tr {
             background-color: var(--color-head);
         }
         main table thead tr th,
         main table tbody tr td {
-            padding: calc(var(--unit) * .2);
+            padding: calc(var(--unit) * .2) calc(var(--unit) * .1);
         }
         main table thead tr th:first-child,
         main table tbody tr td:first-child {
@@ -76,14 +90,10 @@
             padding-bottom:calc(var(--unit) * .4);
             border-bottom: calc(var(--unit) * .2) solid var(--color-basic);
         }
-        /* main table tbody {
-            height: 200px;
-            table-layout: fixed;
-            overflow: auto;
-        } */
         main table tbody tr {
             background-color: var(--color-body-2);
         }
+        /* fix sizes for columns */
         main table thead tr th:nth-child(1),
         main table tbody tr td:nth-child(1),
         main table thead tr th:nth-child(3),
@@ -112,29 +122,115 @@
         main table tbody tr td[colspan="7"] {
             text-align: center;
         }
-        main table tbody tr td a > div,
-        main table tbody tr td a > div > div {
-            border: calc(var(--unit) * .08) solid var(--color-typo);
+        /* link to img */
+        main table tbody tr td a {
+            position: relative;
+            vertical-align: middle;
         }
-        main table tbody tr td a > div {
-            width: var(--unit);
-            display: inline-block;
-            height: calc(var(--unit) * .8);
-            padding: calc(var(--unit) * .05);
+        main table tbody tr td a > img.pic {
+            height: calc(var(--unit) * .7);
         }
-        main table tbody tr td a > div > div {
+        main table tbody tr td a > img:last-of-type {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            line-height: normal;
+            display: none;
+        }
+        /* popup */
+        .popup {
             width: 100%;
             height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: -webkit-flex;
+            display: -moz-flex;
+            display: -ms-flex;
+            display: -o-flex;
+            display: flex;
+            -webkit-justify-content: center;
+            -moz-justify-content: center;
+            -ms-justify-content: center;
+            -o-justify-content: center;
+            justify-content: center;
+            -webkit-align-items: center;
+            -moz-align-items: center;
+            -ms-align-items: center;
+            -o-align-items: center;
+            align-items: center;
         }
-        main table tbody tr td a > div,
-        main table tbody tr td a > div > div {
-            border: calc(var(--unit) * .1) solid var(--color-typo);
+        .popup > div {
+            position: relative;
         }
+        .popup > div > img {
+            max-width: 80vw;
+            max-height: 80vh;
+        }
+        /* close button */
+        .close {
+            width: calc(var(--unit) * 2);
+            height: calc(var(--unit) * 2);
+            position: absolute;
+            top: calc(var(--unit) * -3);
+            right: 0;
+            cursor: pointer;
+            display: inline-block;
+
+        }
+        .close div {
+            width: calc(var(--unit) * 0.2);
+            height: calc(var(--unit) * 2);
+            background-color: white;
+            position: absolute;
+            right: 50%;
+        }
+        .close div:first-child {
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            transform: rotate(45deg);
+        }
+        .close div:last-child {
+            -webkit-transform: rotate(-45deg);
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -o-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+        }
+        /* fade in */
+        .fade-in {
+            visibility: visible;
+            -webkit-animation: fadeIn 1s;
+            -moz-animation: fadeIn 1s;
+            -o-animation: fadeIn 1s;
+            animation: fadeIn 1s;
+        }
+        @-webkit-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+        @-moz-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+        @-o-keyframes fadeIn {
+            from {opacity: 0;} 
+            to {opacity: 1;}
+        }
+        @keyframes fadeIn {
+            from {opacity: 0;}
+            to {opacity:1 ;}
+        }
+        /* footer */
         footer {
+            height: calc(var(--unit) * 3);
             text-align: center;
         }
         footer div {
-            width: calc(var(--unit) * 4.6);
+            width: calc(var(--unit) * 4.8);
             height: calc(var(--unit) * 2.5);
             display: inline-block;
             position: fixed;
@@ -144,7 +240,8 @@
             width: 100%;
             height: 100%;
             position: absolute;
-            left: calc(var(--unit) * -4.6 / 2)
+            left: calc(var(--unit) * -4.8 / 2);
+            visibility: hidden;
         }
         footer div a div {
             width: calc(var(--unit) * 3);
@@ -155,30 +252,48 @@
             bottom: calc(var(--unit) * 3 / 2);
         }
         footer div a div:first-child {
+            -webkit-transform: rotate(-30deg);
+            -moz-transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+            -o-transform: rotate(-30deg);
             transform: rotate(-30deg);
             left: 0;
         }
         footer div a div:last-child {
+            -webkit-transform: rotate(30deg);
+            -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+            -o-transform: rotate(30deg);
             transform: rotate(30deg);
             float: right;
         }
 
-        @media only screen and (min-width: 720px) {
+        @media only screen and (min-width: 640px) {
+            header img {
+                width: 30%;
+            }
+        }
+        @media only screen and (min-width: 780px) {
+            main table {
+                width: 70%;
+            }
+            .popup > img {
+                max-width: 60vw;
+            }
+        }
+        @media only screen and (min-width: 960px) {
             body {
-                font-size: medium;
+                font-size: 13px;
             }
             header, main {
                 padding: calc(var(--unit) * 2);
 
             }
-            header img {
-                width: 30%;
-            }
             main {
                 padding-top: 0;
             }
             main table {
-                width: 60%;
+                width: 100%;
             }
             main table thead tr th:first-child,
             main table tbody tr td:first-child {
@@ -209,6 +324,11 @@
             main table thead tr th:nth-child(6),
             main table thead tr td:nth-child(6) {
                 width: calc(var(--unit) * 3);
+            }
+        }
+        @media only screen and (min-width: 1260px) {
+            main table {
+                width: 70%;
             }
         }
     </style>
@@ -242,355 +362,7 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td id="cm" colspan="7">CM</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>242</td>
-                    <td>Der Deutsche</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1924/35</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>243</td>
-                    <td>Sierra Cordoba (2) KDF</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1923/34</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>245</td>
-                    <td>Toledo</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1923</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>250</td>
-                    <td>Europa I</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>251</td>
-                    <td>Europa II</td>
-                    <td></td>
-                    <td>D</td>
-                    <td></td>
-                    <td>1889</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>252</td>
-                    <td>Prinz Friedrich Wilhelm</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1908</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>260</td>
-                    <td>Edfu</td>
-                    <td>PA</td>
-                    <td>D</td>
-                    <td>2</td>
-                    <td>1903</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td id="cmkr" colspan="7">CMKR</td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Rufigi</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-                <tr>
-                    <td>1</td>
-                    <td>Elbing</td>
-                    <td>FR</td>
-                    <td>D</td>
-                    <td>1</td>
-                    <td>1925</td>
-                    <td><a href="#"><div><div></div></div></a></td>
-                </tr>
-            </tbody>
+                <tr><td colspan="7" id="CM">CM</td></tr><tr><td>1</td><td>RUFIDJI</td><td>FR</td><td>D</td><td>1</td><td>1925</td><td></td></tr><tr><td>2</td><td>ELBING</td><td>FR</td><td>D</td><td>2</td><td>1925</td><td></td></tr><tr><td>3</td><td>ALEMANIA</td><td>FR</td><td>D</td><td>1</td><td>1925</td><td></td></tr><tr><td>4</td><td>APOLLO</td><td>FR</td><td>D</td><td>4</td><td>1927</td><td></td></tr><tr><td>5</td><td>MEMPHIS</td><td>FR</td><td>D</td><td>2</td><td>1935</td><td></td></tr><tr><td>6</td><td>TRITON</td><td>FR</td><td>D</td><td>2</td><td>1920</td><td></td></tr><tr><td>7</td><td>HENRY HORN</td><td>FR</td><td>D</td><td>1</td><td>1926</td><td></td></tr><tr><td>8</td><td>ANITA L.M. RUSS</td><td>FR</td><td>D</td><td>6</td><td>1926</td><td></td></tr><tr><td>9</td><td>CITTA DI AGRIGENTO</td><td>PA</td><td>I</td><td>7</td><td>1930</td><td></td></tr><tr><td>10</td><td>AUGUST THYSSEN</td><td>FR</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>11</td><td>DARESSALAM</td><td>PA</td><td>D</td><td>3</td><td>1939</td><td></td></tr><tr><td>12</td><td>BRANDENBURG</td><td>PA</td><td>D</td><td>1</td><td>1937</td><td></td></tr><tr><td>13</td><td>OSTPREUSSEN</td><td>PA</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>14</td><td>ERPEL</td><td>FR</td><td>D</td><td>6</td><td>1927</td><td></td></tr><tr><td>15</td><td>ULM</td><td>FR</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>16</td><td>BREMERHAVEN</td><td>FR</td><td>D</td><td>3</td><td>1938</td><td></td></tr><tr><td>16B</td><td>BRAKE (Seed.-Ost Preussen)</td><td>FR/PA</td><td>D</td><td>1</td><td>1943</td><td></td></tr><tr><td>17</td><td>ELSE HUGO STINNES 15</td><td>FR</td><td>D</td><td>2</td><td>1927</td><td></td></tr><tr><td>18</td><td>LUNA</td><td>FR</td><td>D</td><td>3</td><td>1939</td><td></td></tr><tr><td>18a</td><td>MINNA</td><td>AH</td><td>D</td><td>1</td><td>1940</td><td></td></tr><tr><td>19</td><td>DÜSSELDORF</td><td>FR</td><td>D</td><td>2</td><td>1935</td><td></td></tr><tr><td>20N</td><td>FRANKENWALD</td><td>FR</td><td>D</td><td>5</td><td>1922</td><td></td></tr><tr><td>21</td><td>DORTMUND</td><td>FR</td><td>D</td><td>4</td><td>1926</td><td></td></tr><tr><td>22</td><td>ALTONA</td><td>FR</td><td>D</td><td>6</td><td>1921</td><td></td></tr><tr><td>22a</td><td>PARANA</td><td>FR</td><td>D</td><td>1</td><td>1922</td><td></td></tr><tr><td>23</td><td>HAVELLAND</td><td>FR</td><td>D</td><td>2</td><td>1921</td><td></td></tr><tr><td>24</td><td>HELGOLAND</td><td>PA</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>25</td><td>HINDENBURG</td><td>FR</td><td>D</td><td>6</td><td>1921</td><td></td></tr><tr><td>26</td><td>SCHEER</td><td>FR</td><td>D</td><td>1</td><td>1914</td><td></td></tr><tr><td>27</td><td>OLDENBURG</td><td>FR</td><td>D</td><td>1</td><td>1923</td><td></td></tr><tr><td>28</td><td>SESOSTRIS</td><td>FR</td><td>D</td><td>1</td><td>1922</td><td></td></tr><tr><td>29</td><td>ODENWALD</td><td>FR</td><td>D</td><td>2</td><td>1923</td><td></td></tr><tr><td>30</td><td>CERIGO</td><td>FR</td><td>D</td><td>1</td><td>1922</td><td></td></tr><tr><td>31</td><td>KAISER</td><td>PA</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>32</td><td>COBRA</td><td>PA</td><td>D</td><td>1</td><td>1926</td><td></td></tr><tr><td>33</td><td>PORTLAND</td><td>FR</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>34</td><td>ORIZABA</td><td>FR</td><td>D</td><td>3</td><td>1939</td><td></td></tr><tr><td>35</td><td>RUHR</td><td>FR</td><td>D</td><td>2</td><td>1925</td><td></td></tr><tr><td>36</td><td>RHEINLAND</td><td>FR</td><td>D</td><td>1</td><td>1927</td><td></td></tr><tr><td>37</td><td>ITAURI</td><td>FR</td><td>D</td><td>4</td><td>1922</td><td></td></tr><tr><td>38</td><td>ORINOCO</td><td>PA</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>39</td><td>BOCHUM</td><td>FR</td><td>D</td><td>1</td><td>1921</td><td></td></tr><tr><td>40</td><td>UNITAS 1</td><td>W f</td><td>D</td><td>1</td><td>1937</td><td></td></tr><tr><td>41</td><td>UNITAS 2-8</td><td>W f</td><td>D</td><td>8</td><td>1937</td><td></td></tr><tr><td>42</td><td>UNITAS 9</td><td>W f</td><td>D</td><td>1</td><td>1937</td><td></td></tr><tr><td>43</td><td>WIKINGER</td><td>WM</td><td>D</td><td>1</td><td>1929</td><td></td></tr><tr><td>44</td><td>WIKINGER 6-1O</td><td>W f</td><td>D</td><td>5</td><td>1939</td><td></td></tr><tr><td>48</td><td>FRIEDRICH FRANZ IV</td><td>FY</td><td>D</td><td>1</td><td>1903</td><td></td></tr><tr><td>49</td><td>MECKLENBURG</td><td>FY</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>50</td><td>CONSUL HORN</td><td>FR</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>51</td><td>FRIEDA HORN</td><td>FR</td><td>D</td><td>1</td><td>1925</td><td></td></tr><tr><td>52</td><td>CLAUS HORN</td><td>FR</td><td>D</td><td>1</td><td>1925</td><td></td></tr><tr><td>53</td><td>URSULA RICKMERS</td><td>FR</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>53a</td><td>TEISEN MARU</td><td>AK</td><td>J</td><td>1</td><td>1941</td><td></td></tr><tr><td>54</td><td>HANS RICKMERS</td><td>FR</td><td>D</td><td>3</td><td>1938</td><td></td></tr><tr><td>55</td><td>BERTRAM RICKMERS</td><td>FR</td><td>D</td><td>1</td><td>1923</td><td></td></tr><tr><td>56</td><td>R. C. RICKMERS</td><td>FR</td><td>D</td><td>1</td><td>1921</td><td></td></tr><tr><td>56a</td><td>TEIFUKU MARU</td><td>AK</td><td>J</td><td>1</td><td>1942</td><td></td></tr><tr><td>57</td><td>SOPHIE RICKMERS</td><td>FR</td><td>D</td><td>1</td><td>1920</td><td></td></tr><tr><td>58</td><td>HEIN HOYER</td><td>FR</td><td>D</td><td>2</td><td>1937</td><td></td></tr><tr><td>59</td><td>KARPFANGER</td><td>FR</td><td>D</td><td>3</td><td>1922</td><td></td></tr><tr><td>60</td><td>GEORGE WASHINGTON</td><td>PA</td><td>D</td><td>1</td><td>1908</td><td></td></tr><tr><td>60a</td><td>GEORGE WASHINGTON</td><td>PA</td><td>USA</td><td>1</td><td>1930</td><td></td></tr><tr><td>61</td><td>DRESDEN</td><td>PA</td><td>D</td><td>1</td><td>1934</td><td></td></tr><tr><td>62</td><td>LEIPZIG</td><td>FR</td><td>D</td><td>4</td><td>1938</td><td></td></tr><tr><td>63</td><td>OSNABRÜCK</td><td>FR</td><td>D</td><td>2</td><td>1935</td><td></td></tr><tr><td>64</td><td>ALSTER</td><td>FR</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>65</td><td>COBURG</td><td>FR</td><td>D</td><td>3</td><td>1928</td><td></td></tr><tr><td>66</td><td>FRANKEN</td><td>FR</td><td>D</td><td>2</td><td>1926</td><td></td></tr><tr><td>67</td><td>NECKAR</td><td>FR</td><td>D</td><td>3</td><td>1927</td><td></td></tr><tr><td>67a</td><td>TAISUI MARU ex MOSEL</td><td>AK</td><td>J</td><td>1</td><td>1941</td><td></td></tr><tr><td>68</td><td>ARUCAS</td><td>FR</td><td>D</td><td>2</td><td>1927</td><td></td></tr><tr><td>69</td><td>CHEMNITZ</td><td>FR</td><td>D</td><td>2</td><td>1929</td><td></td></tr><tr><td>70</td><td>LIPPE</td><td>FR</td><td>D</td><td>2</td><td>1917/27</td><td></td></tr><tr><td>75</td><td>RAUENFELS</td><td>FR</td><td>D</td><td>4</td><td>1928</td><td></td></tr><tr><td>76</td><td>MARIENFELS</td><td>FR</td><td>D</td><td>5</td><td>1921</td><td></td></tr><tr><td>77</td><td>FALKENFELS</td><td>FR</td><td>D</td><td>11</td><td>1921</td><td></td></tr><tr><td>78</td><td>KYBFELS</td><td>FR</td><td>D</td><td>2</td><td>1937</td><td></td></tr><tr><td>79</td><td>ALTENFELS</td><td>FR</td><td>D</td><td>6</td><td>1925</td><td></td></tr><tr><td>80</td><td>WOLFSBURG</td><td>FR</td><td>D</td><td>4</td><td>1916/24</td><td></td></tr><tr><td>81</td><td>SCHARLACHBERGER</td><td>FR</td><td>D</td><td>6</td><td>1889</td><td></td></tr><tr><td>84</td><td>SCHÖNFELS II</td><td>FR</td><td>D</td><td>4</td><td>1918/26</td><td></td></tr><tr><td>85</td><td>SCHWANHEIM</td><td>FR</td><td>D</td><td>1</td><td>1935</td><td></td></tr><tr><td>86</td><td>ELEONORE WOERMANN</td><td>PA</td><td>D</td><td>1</td><td>1902</td><td></td></tr><tr><td>87</td><td>KOMMODORE</td><td>PA</td><td>D</td><td>2</td><td>1910</td><td></td></tr><tr><td>88</td><td>ULANGA</td><td>FR</td><td>D</td><td>1</td><td>1923</td><td></td></tr><tr><td>89</td><td>TABORA (1) PA</td><td>AH</td><td>D</td><td>3</td><td>1912</td><td></td></tr><tr><td>90</td><td>WINDHUK</td><td>PA</td><td>D</td><td>2</td><td>1936</td><td></td></tr><tr><td>91</td><td>MONTE OLIVIA</td><td>PA</td><td>D</td><td>2</td><td>1924</td><td></td></tr><tr><td>91a</td><td>MONTE OLIVIA</td><td>AH</td><td>D</td><td>1</td><td>1945</td><td></td></tr><tr><td>92</td><td>MONTE PASCOAL</td><td>PA</td><td>D</td><td>2</td><td>1924</td><td></td></tr><tr><td>92a</td><td>MONTE ROSA</td><td>AH</td><td>D</td><td>1</td><td>1945</td><td></td></tr><tr><td>93</td><td>SANTA ISABEL</td><td>FR</td><td>D</td><td>3</td><td>1914</td><td></td></tr><tr><td>94</td><td>CAP POLONIO</td><td>PA</td><td>D</td><td>1</td><td>1914/21</td><td></td></tr><tr><td>95</td><td>CAP TRAFALGAR</td><td>PA</td><td>D</td><td>1</td><td>1914</td><td></td></tr><tr><td>96</td><td>ENTRERIOS</td><td>FR</td><td>D</td><td>1</td><td>1922</td><td></td></tr><tr><td>97</td><td>PATAGONIA</td><td>FR</td><td>D</td><td>1</td><td>1912/37</td><td></td></tr><tr><td>98</td><td>RIO de JANEIRO</td><td>FR</td><td>D</td><td>1</td><td>1914/21</td><td></td></tr><tr><td>99</td><td>BAHIA LAURA</td><td>FR</td><td>D</td><td>4</td><td>1918/38</td><td></td></tr><tr><td>100</td><td>PRESIDENT GRANT</td><td>PA</td><td>D</td><td>2</td><td>1906</td><td></td></tr><tr><td>101</td><td>WUPPERTAL</td><td>FR</td><td>D</td><td>1</td><td>1936</td><td></td></tr><tr><td>102</td><td>KAISERIN AUG . VICTORIA</td><td>PA</td><td>D</td><td>1</td><td>1905</td><td></td></tr><tr><td>103</td><td>BISMARCK</td><td>PA</td><td>D</td><td>1</td><td>1914</td><td></td></tr><tr><td>104</td><td>DEUTSCHLAND</td><td>PA</td><td>D</td><td>1</td><td>1900</td><td></td></tr><tr><td>105</td><td>IMPERATOR</td><td>PA</td><td>D</td><td>1</td><td>1913</td><td></td></tr><tr><td>106</td><td>FÜRST BISMARCK</td><td>PA</td><td>D</td><td>1</td><td>1890</td><td></td></tr><tr><td>107</td><td>CAP ARCONA I.</td><td>PA</td><td>D</td><td>1</td><td>1907</td><td></td></tr><tr><td>108</td><td>MONTE CERVANTES</td><td>PA</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>109</td><td>CAP ARCONA II</td><td>PA</td><td>D</td><td>1</td><td>1927</td><td></td></tr><tr><td>110</td><td>VICTORIA LUISE</td><td>PA</td><td>D</td><td>1</td><td>1911</td><td></td></tr><tr><td>111</td><td>COLUMBUS I</td><td>PA</td><td>D</td><td>1</td><td>1913</td><td></td></tr><tr><td>112</td><td>KÖNIGIN LUISE</td><td>PA</td><td>D</td><td>1</td><td>1913</td><td></td></tr><tr><td>113</td><td>HAMBURG</td><td>PA</td><td>D</td><td>1</td><td>1899</td><td></td></tr><tr><td>114</td><td>VATERLAND</td><td>PA</td><td>D</td><td>1</td><td>1913</td><td></td></tr><tr><td>115</td><td>NEW YORK HAPAG</td><td>PA</td><td>D</td><td>1</td><td>1927</td><td></td></tr><tr><td>116</td><td>KIAUTSCHOU HAPAG</td><td>PA</td><td>D</td><td>1</td><td>1900</td><td></td></tr><tr><td>117</td><td>SAARLAND( Bordwandbesch.) (CARL HAGENBECK )</td><td>FR</td><td>D</td><td>2</td><td>1923</td><td></td></tr><tr><td>118</td><td>VATERLAND II</td><td>PA</td><td>D</td><td>-3</td><td>1940</td><td></td></tr><tr><td>119</td><td>IDARWALD</td><td>FR</td><td>D</td><td>1</td><td>1927</td><td></td></tr><tr><td>120</td><td>MANNHEIM</td><td>FR</td><td>D</td><td>1</td><td>1911</td><td></td></tr><tr><td>121</td><td>LÜNEBURG</td><td>FR</td><td>D</td><td>1</td><td>1926</td><td></td></tr><tr><td>130</td><td>CASSEL</td><td>PA</td><td>D</td><td>4</td><td>1901</td><td></td></tr><tr><td>130A</td><td>CASSEL</td><td>AH</td><td>D</td><td>3</td><td>1914</td><td></td></tr><tr><td>131</td><td>GROSSER KURFÜRST</td><td>PA</td><td>D</td><td>1</td><td>1900</td><td></td></tr><tr><td>132</td><td>SCHARNHORST</td><td>PA</td><td>D</td><td>2</td><td>1904</td><td></td></tr><tr><td>132A</td><td>SCHARNHORST</td><td>AH</td><td>D</td><td>1</td><td>1914</td><td></td></tr><tr><td>133</td><td>SCHLESWIG</td><td>PA</td><td>D</td><td>1</td><td>1902</td><td></td></tr><tr><td>133a</td><td>SCHLESWIG</td><td>AH</td><td>D</td><td>1</td><td>1914</td><td></td></tr><tr><td>134</td><td>GERA</td><td>PA</td><td>D</td><td>4</td><td>1890</td><td></td></tr><tr><td>135</td><td>KRONPRINZESSIN CECILIE</td><td>PA</td><td>D</td><td>1</td><td>1906</td><td></td></tr><tr><td>136</td><td>KAISER WILHHELM II</td><td>PA</td><td>D</td><td>1</td><td>1903</td><td></td></tr><tr><td>137</td><td>BARBAROSSA</td><td>PA</td><td>D</td><td>1</td><td>1896</td><td></td></tr><tr><td>138</td><td>GNEISENAU</td><td>PA</td><td>D</td><td>1</td><td>1903</td><td></td></tr><tr><td>139</td><td>KÖNIG ALBERT</td><td>PA</td><td>D</td><td>1</td><td>1899</td><td></td></tr><tr><td>140</td><td>KRONPRINZ WILHELM</td><td>PA</td><td>D</td><td>1</td><td>1901</td><td></td></tr><tr><td>141</td><td>Kaiser Wilhelm der Grosse</td><td>PA</td><td>D</td><td>1</td><td>1897</td><td></td></tr><tr><td>142</td><td>FRIEDRICH der GROSSE</td><td>PA</td><td>D</td><td>1</td><td>1896</td><td></td></tr><tr><td>143</td><td>CALIFORNIAN</td><td>PA</td><td>GB</td><td>1</td><td>1902</td><td></td></tr><tr><td>144</td><td>OLYMPIC</td><td>PA</td><td>GB</td><td>1</td><td>1911</td><td></td></tr><tr><td>145</td><td>OCEANIC</td><td>PA</td><td>GB</td><td>1</td><td>1899</td><td></td></tr><tr><td>146</td><td>BRITANIC ( III)</td><td>PA</td><td>GB</td><td>1</td><td>1930</td><td></td></tr><tr><td>147</td><td>GEORGIC</td><td>PA</td><td>GB</td><td>1</td><td>1931</td><td></td></tr><tr><td>148</td><td>TITANIC</td><td>PA</td><td>GB</td><td>1</td><td>1912</td><td></td></tr><tr><td>149</td><td>HOMERIC</td><td>PA</td><td>GB</td><td>1</td><td>1922</td><td></td></tr><tr><td>15o</td><td>MAJESTIC</td><td>PA</td><td>GB</td><td>1</td><td>1922</td><td></td></tr><tr><td>151</td><td>BERENGARIA</td><td>PA</td><td>GB</td><td>1</td><td>1922</td><td></td></tr><tr><td>152</td><td>MAURETANIA</td><td>PA</td><td>GB</td><td>1</td><td>1938</td><td></td></tr><tr><td>152A</td><td>MAURETANIA (GRÜN)</td><td>PA</td><td>GB</td><td>1</td><td>1962</td><td></td></tr><tr><td>153</td><td>QUEEN ELIZABETH I</td><td>PA</td><td>GB</td><td>1</td><td>194o</td><td></td></tr><tr><td>154</td><td>QUEEN MARY</td><td>PA</td><td>GB</td><td>1</td><td>1936</td><td></td></tr><tr><td>155</td><td>CARPATHIA</td><td>PA</td><td>GB</td><td>1</td><td>1902</td><td></td></tr><tr><td>156</td><td>AQUITANIA</td><td>PA</td><td>GB</td><td>1</td><td>1913</td><td></td></tr><tr><td>156A</td><td>AQUITANIA TruppenT.</td><td>AP</td><td>GB</td><td>1</td><td>1915</td><td></td></tr><tr><td>156B</td><td>AQUITANIA ( Lazarett)</td><td>AH</td><td>GB</td><td>1</td><td>1916</td><td></td></tr><tr><td>156C</td><td>AQUITANIA ( GRAU)</td><td>AP</td><td>GB</td><td>1</td><td>1946</td><td></td></tr><tr><td>17O</td><td>ARAMIS</td><td>PA</td><td>F</td><td>2</td><td>1931</td><td></td></tr><tr><td>171</td><td>NORMANDIE</td><td>PA</td><td>F</td><td>1</td><td>1932</td><td></td></tr><tr><td>172</td><td>MONTANA</td><td>PA</td><td>F</td><td>1</td><td>1920</td><td></td></tr><tr><td>18O</td><td>STATENDAM III</td><td>PA</td><td>NL</td><td>1</td><td>1929</td><td></td></tr><tr><td>181</td><td>EDAM</td><td>PA/FR</td><td>NL</td><td>4</td><td>1921</td><td></td></tr><tr><td>182</td><td>SPAARNDAM</td><td>FR</td><td>NL</td><td>4</td><td>1922</td><td></td></tr><tr><td>183</td><td>BURGERDIJK</td><td>FR</td><td>NL</td><td>8</td><td>1921</td><td></td></tr><tr><td>184</td><td>KOTA INTEN</td><td>FR</td><td>NL</td><td>8</td><td>1927</td><td></td></tr><tr><td>185</td><td>MERCIER</td><td>FR</td><td>B</td><td>1</td><td>1915</td><td></td></tr><tr><td>186</td><td>BAUDOUINVILLE</td><td>PA</td><td>B</td><td>1</td><td>1939</td><td></td></tr><tr><td>187</td><td>MAR del PLATA</td><td>FR/PA</td><td>B</td><td>3</td><td>1938</td><td></td></tr><tr><td>19O</td><td>EIGER</td><td>FR</td><td>CH</td><td>1</td><td>1941</td><td></td></tr><tr><td>2OO</td><td>NITTA MARU</td><td>PA</td><td>J</td><td>2</td><td>1930</td><td></td></tr><tr><td>2O1</td><td>KITSURIN MARU</td><td>PA</td><td>J</td><td>2</td><td>1935</td><td></td></tr><tr><td>209</td><td>SOUTHWOLD BELLE</td><td>PA</td><td>GB</td><td>1</td><td>1900</td><td></td></tr><tr><td>210</td><td>CITY of DUNEDIN</td><td>FR</td><td>GB</td><td>1</td><td>1917</td><td></td></tr><tr><td>211</td><td>CITY OF CHRISTCHURCH</td><td>FR</td><td>GB</td><td>1</td><td>1915/29</td><td></td></tr><tr><td>212</td><td>CITY OF BOSTON</td><td>FR</td><td>GB</td><td>1</td><td>1912/22</td><td></td></tr><tr><td>22O</td><td>MANHATTAN</td><td>PA</td><td>USA</td><td>2</td><td>1932</td><td></td></tr><tr><td>221</td><td>REPUBLIC</td><td>PA</td><td>USA</td><td>1</td><td>1924</td><td></td></tr><tr><td>230</td><td>REX</td><td>PA</td><td>I</td><td>1</td><td>1938</td><td></td></tr><tr><td>233</td><td>MAIN (2) PA</td><td>FR</td><td>D</td><td>3</td><td>1900</td><td></td></tr><tr><td>234</td><td>PRINZESS IRENE NDL</td><td>PA</td><td>D</td><td>1</td><td>1900</td><td></td></tr><tr><td>235</td><td>KAISER FRIEDRICH ( LLOYD)</td><td>PA</td><td>D</td><td>1</td><td>1898</td><td></td></tr><tr><td>235A</td><td>KAISER FRIEDRICH (HAPAG)</td><td>PA</td><td>D</td><td>1</td><td>1899</td><td></td></tr><tr><td>236</td><td>BREMEN IV</td><td>PA</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>236A</td><td>BREMEN IV</td><td>PA</td><td>D</td><td>1</td><td>nach Umb.</td><td></td></tr><tr><td>237</td><td>EUROPA II</td><td>PA</td><td>D</td><td>1</td><td>1928</td><td></td></tr><tr><td>237A</td><td>EUROPA II</td><td>PA</td><td>D</td><td>1</td><td>nach Umb.</td><td></td></tr><tr><td>238</td><td>COLUMBUS II nach Umb.</td><td>PA</td><td>D</td><td>1</td><td>1929</td><td></td></tr><tr><td>238A</td><td>COLUMBUS II (GRAU )</td><td>PA</td><td>D</td><td>1</td><td>1939</td><td></td></tr><tr><td>239</td><td>BREMEN II</td><td>PA</td><td>D</td><td>1</td><td>1897</td><td></td></tr><tr><td>240</td><td>WILHELM GUSTLOFF</td><td>PA</td><td>D</td><td>1</td><td>1937</td><td></td></tr><tr><td>241</td><td>ROBERT LEY</td><td>PA</td><td>D</td><td>1</td><td>1938</td><td></td></tr><tr><td>242</td><td>DER DEUTSCHE</td><td>PA</td><td>D</td><td>1</td><td>1924/35</td><td><a href="/imgs/CM/CM_gross/CM_242_gr.jpg" class="CM-242"><img src="/imgs/icon_pic.svg" class="pic"><img src="/imgs/CM/CM_klein/CM_242_kl.jpg" id="CM_242" class="fade-in" alt="DER DEUTSCHE" style="display: none; cursor: zoom-in;"></a></td></tr><tr><td>243</td><td>SIERRA CORDOBA (2) KDF</td><td>PA</td><td>D</td><td>1</td><td>1923/34</td><td><a href="/imgs/CM/CM_gross/CM_243_gr.jpg" class="CM-243"><img src="/imgs/icon_pic.svg" class="pic"><img src="/imgs/CM/CM_klein/CM_243_kl.jpg" id="CM_243" class="fade-in" alt="SIERRA CORDOBA (2) KDF"></a></td></tr><tr><td>245</td><td>TOLEDO</td><td>PA</td><td>D</td><td>1</td><td>1923</td><td></td></tr><tr><td>250</td><td>EUROPA I</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>251</td><td>EUROPA II</td><td></td><td></td><td></td><td>1889</td><td></td></tr><tr><td>252</td><td>PRINZ FRIEDRICH WILHELM</td><td>PA</td><td>D</td><td>1</td><td>1908</td><td></td></tr><tr><td>260</td><td>EDFU</td><td>PA</td><td>D</td><td>2</td><td>1903</td><td></td></tr><tr><td>270</td><td>TANGANJIKA</td><td>PA</td><td>D</td><td>1</td><td>1922</td><td></td></tr><tr><td>271</td><td>KRONPRINZ</td><td>PA</td><td>D</td><td>2</td><td>1900</td><td></td></tr></tbody>
         </table>
     </main>
     <footer>
