@@ -1,6 +1,6 @@
 [
-  { 
-    "SERIE":"CM",
+  {
+    "SERIE": "CM",
     "NR": "",
     "NAME": "",
     "TYP": "",
@@ -8,1786 +8,7681 @@
     "St": null,
     "JAHR": ""
   },
- { 
-   "SERIE":"CM",
-   "NR": "1",
-   "NAME": "RUFIDJI",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "2",
-   "NAME": "ELBING",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "3",
-   "NAME": "ALEMANIA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "4",
-   "NAME": "APOLLO",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "5",
-   "NAME": "MEMPHIS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1935"
- },
- { 
-   "SERIE":"CM",
-   "NR": "6",
-   "NAME": "TRITON",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1920"
- },
- { 
-   "SERIE":"CM",
-   "NR": "7",
-   "NAME": "HENRY HORN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "8",
-   "NAME": "ANITA L.M. RUSS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "9",
-   "NAME": "CITTA DI AGRIGENTO",
-   "TYP": "PA",
-   "LAND": "I",
-   "St": 7,
-   "JAHR": "1930"
- },
- { 
-   "SERIE":"CM",
-   "NR": "10",
-   "NAME": "AUGUST THYSSEN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "11",
-   "NAME": "DARESSALAM",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "12",
-   "NAME": "BRANDENBURG",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "13",
-   "NAME": "OSTPREUSSEN",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "14",
-   "NAME": "ERPEL",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "15",
-   "NAME": "ULM",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "16",
-   "NAME": "BREMERHAVEN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "16B",
-   "NAME": "BRAKE (Seed.-Ost Preussen)",
-   "TYP": "FR/PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1943"
- },
- { 
-   "SERIE":"CM",
-   "NR": "17",
-   "NAME": "ELSE HUGO STINNES 15",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "18",
-   "NAME": "LUNA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "18a",
-   "NAME": "MINNA",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1940"
- },
- { 
-   "SERIE":"CM",
-   "NR": "19",
-   "NAME": "DÜSSELDORF",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1935"
- },
- { 
-   "SERIE":"CM",
-   "NR": "20N",
-   "NAME": "FRANKENWALD",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 5,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "21",
-   "NAME": "DORTMUND",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "22",
-   "NAME": "ALTONA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "22a",
-   "NAME": "PARANA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "23",
-   "NAME": "HAVELLAND",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "24",
-   "NAME": "HELGOLAND",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "25",
-   "NAME": "HINDENBURG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "26",
-   "NAME": "SCHEER",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "27",
-   "NAME": "OLDENBURG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "28",
-   "NAME": "SESOSTRIS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "29",
-   "NAME": "ODENWALD",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "30",
-   "NAME": "CERIGO",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "31",
-   "NAME": "KAISER",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "32",
-   "NAME": "COBRA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "33",
-   "NAME": "PORTLAND",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "34",
-   "NAME": "ORIZABA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "35",
-   "NAME": "RUHR",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "36",
-   "NAME": "RHEINLAND",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "37",
-   "NAME": "ITAURI",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "38",
-   "NAME": "ORINOCO",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "39",
-   "NAME": "BOCHUM",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "40",
-   "NAME": "UNITAS 1",
-   "TYP": "W f",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "41",
-   "NAME": "UNITAS 2-8",
-   "TYP": "W f",
-   "LAND": "D",
-   "St": 8,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "42",
-   "NAME": "UNITAS 9",
-   "TYP": "W f",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "43",
-   "NAME": "WIKINGER",
-   "TYP": "WM",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1929"
- },
- { 
-   "SERIE":"CM",
-   "NR": "44",
-   "NAME": "WIKINGER 6-1O",
-   "TYP": "W f",
-   "LAND": "D",
-   "St": 5,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "48",
-   "NAME": "FRIEDRICH FRANZ IV",
-   "TYP": "FY",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1903"
- },
- { 
-   "SERIE":"CM",
-   "NR": "49",
-   "NAME": "MECKLENBURG",
-   "TYP": "FY",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "50",
-   "NAME": "CONSUL HORN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "51",
-   "NAME": "FRIEDA HORN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "52",
-   "NAME": "CLAUS HORN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "53",
-   "NAME": "URSULA RICKMERS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "53a",
-   "NAME": "TEISEN MARU",
-   "TYP": "AK",
-   "LAND": "J",
-   "St": 1,
-   "JAHR": "1941"
- },
- { 
-   "SERIE":"CM",
-   "NR": "54",
-   "NAME": "HANS RICKMERS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "55",
-   "NAME": "BERTRAM RICKMERS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "56",
-   "NAME": "R. C. RICKMERS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "56a",
-   "NAME": "TEIFUKU MARU",
-   "TYP": "AK",
-   "LAND": "J",
-   "St": 1,
-   "JAHR": "1942"
- },
- { 
-   "SERIE":"CM",
-   "NR": "57",
-   "NAME": "SOPHIE RICKMERS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1920"
- },
- { 
-   "SERIE":"CM",
-   "NR": "58",
-   "NAME": "HEIN HOYER",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "59",
-   "NAME": "KARPFANGER",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "60",
-   "NAME": "GEORGE WASHINGTON",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1908"
- },
- { 
-   "SERIE":"CM",
-   "NR": "60a",
-   "NAME": "GEORGE WASHINGTON",
-   "TYP": "PA",
-   "LAND": "USA",
-   "St": 1,
-   "JAHR": "1930"
- },
- { 
-   "SERIE":"CM",
-   "NR": "61",
-   "NAME": "DRESDEN",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1934"
- },
- { 
-   "SERIE":"CM",
-   "NR": "62",
-   "NAME": "LEIPZIG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "63",
-   "NAME": "OSNABRÜCK",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1935"
- },
- { 
-   "SERIE":"CM",
-   "NR": "64",
-   "NAME": "ALSTER",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "65",
-   "NAME": "COBURG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "66",
-   "NAME": "FRANKEN",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "67",
-   "NAME": "NECKAR",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "67a",
-   "NAME": "TAISUI MARU ex MOSEL",
-   "TYP": "AK",
-   "LAND": "J",
-   "St": 1,
-   "JAHR": "1941"
- },
- { 
-   "SERIE":"CM",
-   "NR": "68",
-   "NAME": "ARUCAS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "69",
-   "NAME": "CHEMNITZ",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1929"
- },
- { 
-   "SERIE":"CM",
-   "NR": "70",
-   "NAME": "LIPPE",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1917/27"
- },
- { 
-   "SERIE":"CM",
-   "NR": "75",
-   "NAME": "RAUENFELS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "76",
-   "NAME": "MARIENFELS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 5,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "77",
-   "NAME": "FALKENFELS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 11,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "78",
-   "NAME": "KYBFELS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "79",
-   "NAME": "ALTENFELS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1925"
- },
- { 
-   "SERIE":"CM",
-   "NR": "80",
-   "NAME": "WOLFSBURG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1916/24"
- },
- { 
-   "SERIE":"CM",
-   "NR": "81",
-   "NAME": "SCHARLACHBERGER",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 6,
-   "JAHR": "1889"
- },
- { 
-   "SERIE":"CM",
-   "NR": "84",
-   "NAME": "SCHÖNFELS II",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1918/26"
- },
- { 
-   "SERIE":"CM",
-   "NR": "85",
-   "NAME": "SCHWANHEIM",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1935"
- },
- { 
-   "SERIE":"CM",
-   "NR": "86",
-   "NAME": "ELEONORE WOERMANN",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1902"
- },
- { 
-   "SERIE":"CM",
-   "NR": "87",
-   "NAME": "KOMMODORE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1910"
- },
- { 
-   "SERIE":"CM",
-   "NR": "88",
-   "NAME": "ULANGA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "89",
-   "NAME": "TABORA (1) PA",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1912"
- },
- { 
-   "SERIE":"CM",
-   "NR": "90",
-   "NAME": "WINDHUK",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1936"
- },
- { 
-   "SERIE":"CM",
-   "NR": "91",
-   "NAME": "MONTE OLIVIA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1924"
- },
- { 
-   "SERIE":"CM",
-   "NR": "91a",
-   "NAME": "MONTE OLIVIA",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1945"
- },
- { 
-   "SERIE":"CM",
-   "NR": "92",
-   "NAME": "MONTE PASCOAL",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1924"
- },
- { 
-   "SERIE":"CM",
-   "NR": "92a",
-   "NAME": "MONTE ROSA",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1945"
- },
- { 
-   "SERIE":"CM",
-   "NR": "93",
-   "NAME": "SANTA ISABEL",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "94",
-   "NAME": "CAP POLONIO",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914/21"
- },
- { 
-   "SERIE":"CM",
-   "NR": "95",
-   "NAME": "CAP TRAFALGAR",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "96",
-   "NAME": "ENTRERIOS",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "97",
-   "NAME": "PATAGONIA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1912/37"
- },
- { 
-   "SERIE":"CM",
-   "NR": "98",
-   "NAME": "RIO de JANEIRO",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914/21"
- },
- { 
-   "SERIE":"CM",
-   "NR": "99",
-   "NAME": "BAHIA LAURA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1918/38"
- },
- { 
-   "SERIE":"CM",
-   "NR": "100",
-   "NAME": "PRESIDENT GRANT",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1906"
- },
- { 
-   "SERIE":"CM",
-   "NR": "101",
-   "NAME": "WUPPERTAL",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1936"
- },
- { 
-   "SERIE":"CM",
-   "NR": "102",
-   "NAME": "KAISERIN AUG . VICTORIA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1905"
- },
- { 
-   "SERIE":"CM",
-   "NR": "103",
-   "NAME": "BISMARCK",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "104",
-   "NAME": "DEUTSCHLAND",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "105",
-   "NAME": "IMPERATOR",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1913"
- },
- { 
-   "SERIE":"CM",
-   "NR": "106",
-   "NAME": "FÜRST BISMARCK",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1890"
- },
- { 
-   "SERIE":"CM",
-   "NR": "107",
-   "NAME": "CAP ARCONA I.",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1907"
- },
- { 
-   "SERIE":"CM",
-   "NR": "108",
-   "NAME": "MONTE CERVANTES",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "109",
-   "NAME": "CAP ARCONA II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "110",
-   "NAME": "VICTORIA LUISE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1911"
- },
- { 
-   "SERIE":"CM",
-   "NR": "111",
-   "NAME": "COLUMBUS I",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1913"
- },
- { 
-   "SERIE":"CM",
-   "NR": "112",
-   "NAME": "KÖNIGIN LUISE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1913"
- },
- { 
-   "SERIE":"CM",
-   "NR": "113",
-   "NAME": "HAMBURG",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1899"
- },
- { 
-   "SERIE":"CM",
-   "NR": "114",
-   "NAME": "VATERLAND",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1913"
- },
- { 
-   "SERIE":"CM",
-   "NR": "115",
-   "NAME": "NEW YORK HAPAG",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "116",
-   "NAME": "KIAUTSCHOU HAPAG",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "117",
-   "NAME": "SAARLAND( Bordwandbesch.) (CARL HAGENBECK )",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "118",
-   "NAME": "VATERLAND II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": -3,
-   "JAHR": "1940"
- },
- { 
-   "SERIE":"CM",
-   "NR": "119",
-   "NAME": "IDARWALD",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "120",
-   "NAME": "MANNHEIM",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1911"
- },
- { 
-   "SERIE":"CM",
-   "NR": "121",
-   "NAME": "LÜNEBURG",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1926"
- },
- { 
-   "SERIE":"CM",
-   "NR": "130",
-   "NAME": "CASSEL",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1901"
- },
- { 
-   "SERIE":"CM",
-   "NR": "130A",
-   "NAME": "CASSEL",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "131",
-   "NAME": "GROSSER KURFÜRST",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "132",
-   "NAME": "SCHARNHORST",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1904"
- },
- { 
-   "SERIE":"CM",
-   "NR": "132A",
-   "NAME": "SCHARNHORST",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "133",
-   "NAME": "SCHLESWIG",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1902"
- },
- { 
-   "SERIE":"CM",
-   "NR": "133a",
-   "NAME": "SCHLESWIG",
-   "TYP": "AH",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1914"
- },
- { 
-   "SERIE":"CM",
-   "NR": "134",
-   "NAME": "GERA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 4,
-   "JAHR": "1890"
- },
- { 
-   "SERIE":"CM",
-   "NR": "135",
-   "NAME": "KRONPRINZESSIN CECILIE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1906"
- },
- { 
-   "SERIE":"CM",
-   "NR": "136",
-   "NAME": "KAISER WILHHELM II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1903"
- },
- { 
-   "SERIE":"CM",
-   "NR": "137",
-   "NAME": "BARBAROSSA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1896"
- },
- { 
-   "SERIE":"CM",
-   "NR": "138",
-   "NAME": "GNEISENAU",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1903"
- },
- { 
-   "SERIE":"CM",
-   "NR": "139",
-   "NAME": "KÖNIG ALBERT",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1899"
- },
- { 
-   "SERIE":"CM",
-   "NR": "140",
-   "NAME": "KRONPRINZ WILHELM",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1901"
- },
- { 
-   "SERIE":"CM",
-   "NR": "141",
-   "NAME": "Kaiser Wilhelm der Grosse",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1897"
- },
- { 
-   "SERIE":"CM",
-   "NR": "142",
-   "NAME": "FRIEDRICH der GROSSE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1896"
- },
- { 
-   "SERIE":"CM",
-   "NR": "143",
-   "NAME": "CALIFORNIAN",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1902"
- },
- { 
-   "SERIE":"CM",
-   "NR": "144",
-   "NAME": "OLYMPIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1911"
- },
- { 
-   "SERIE":"CM",
-   "NR": "145",
-   "NAME": "OCEANIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1899"
- },
- { 
-   "SERIE":"CM",
-   "NR": "146",
-   "NAME": "BRITANIC ( III)",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1930"
- },
- { 
-   "SERIE":"CM",
-   "NR": "147",
-   "NAME": "GEORGIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1931"
- },
- { 
-   "SERIE":"CM",
-   "NR": "148",
-   "NAME": "TITANIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1912"
- },
- { 
-   "SERIE":"CM",
-   "NR": "149",
-   "NAME": "HOMERIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "15o",
-   "NAME": "MAJESTIC",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "151",
-   "NAME": "BERENGARIA",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "152",
-   "NAME": "MAURETANIA",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "152A",
-   "NAME": "MAURETANIA (GRÜN)",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1962"
- },
- { 
-   "SERIE":"CM",
-   "NR": "153",
-   "NAME": "QUEEN ELIZABETH I",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "194o"
- },
- { 
-   "SERIE":"CM",
-   "NR": "154",
-   "NAME": "QUEEN MARY",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1936"
- },
- { 
-   "SERIE":"CM",
-   "NR": "155",
-   "NAME": "CARPATHIA",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1902"
- },
- { 
-   "SERIE":"CM",
-   "NR": "156",
-   "NAME": "AQUITANIA",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1913"
- },
- { 
-   "SERIE":"CM",
-   "NR": "156A",
-   "NAME": "AQUITANIA TruppenT.",
-   "TYP": "AP",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1915"
- },
- { 
-   "SERIE":"CM",
-   "NR": "156B",
-   "NAME": "AQUITANIA ( Lazarett)",
-   "TYP": "AH",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1916"
- },
- { 
-   "SERIE":"CM",
-   "NR": "156C",
-   "NAME": "AQUITANIA ( GRAU)",
-   "TYP": "AP",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1946"
- },
- { 
-   "SERIE":"CM",
-   "NR": "17O",
-   "NAME": "ARAMIS",
-   "TYP": "PA",
-   "LAND": "F",
-   "St": 2,
-   "JAHR": "1931"
- },
- { 
-   "SERIE":"CM",
-   "NR": "171",
-   "NAME": "NORMANDIE",
-   "TYP": "PA",
-   "LAND": "F",
-   "St": 1,
-   "JAHR": "1932"
- },
- { 
-   "SERIE":"CM",
-   "NR": "172",
-   "NAME": "MONTANA",
-   "TYP": "PA",
-   "LAND": "F",
-   "St": 1,
-   "JAHR": "1920"
- },
- { 
-   "SERIE":"CM",
-   "NR": "18O",
-   "NAME": "STATENDAM III",
-   "TYP": "PA",
-   "LAND": "NL",
-   "St": 1,
-   "JAHR": "1929"
- },
- { 
-   "SERIE":"CM",
-   "NR": "181",
-   "NAME": "EDAM",
-   "TYP": "PA/FR",
-   "LAND": "NL",
-   "St": 4,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "182",
-   "NAME": "SPAARNDAM",
-   "TYP": "FR",
-   "LAND": "NL",
-   "St": 4,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "183",
-   "NAME": "BURGERDIJK",
-   "TYP": "FR",
-   "LAND": "NL",
-   "St": 8,
-   "JAHR": "1921"
- },
- { 
-   "SERIE":"CM",
-   "NR": "184",
-   "NAME": "KOTA INTEN",
-   "TYP": "FR",
-   "LAND": "NL",
-   "St": 8,
-   "JAHR": "1927"
- },
- { 
-   "SERIE":"CM",
-   "NR": "185",
-   "NAME": "MERCIER",
-   "TYP": "FR",
-   "LAND": "B",
-   "St": 1,
-   "JAHR": "1915"
- },
- { 
-   "SERIE":"CM",
-   "NR": "186",
-   "NAME": "BAUDOUINVILLE",
-   "TYP": "PA",
-   "LAND": "B",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "187",
-   "NAME": "MAR del PLATA",
-   "TYP": "FR/PA",
-   "LAND": "B",
-   "St": 3,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "19O",
-   "NAME": "EIGER",
-   "TYP": "FR",
-   "LAND": "CH",
-   "St": 1,
-   "JAHR": "1941"
- },
- { 
-   "SERIE":"CM",
-   "NR": "2OO",
-   "NAME": "NITTA MARU",
-   "TYP": "PA",
-   "LAND": "J",
-   "St": 2,
-   "JAHR": "1930"
- },
- { 
-   "SERIE":"CM",
-   "NR": "2O1",
-   "NAME": "KITSURIN MARU",
-   "TYP": "PA",
-   "LAND": "J",
-   "St": 2,
-   "JAHR": "1935"
- },
- { 
-   "SERIE":"CM",
-   "NR": "209",
-   "NAME": "SOUTHWOLD BELLE",
-   "TYP": "PA",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "210",
-   "NAME": "CITY of DUNEDIN",
-   "TYP": "FR",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1917"
- },
- { 
-   "SERIE":"CM",
-   "NR": "211",
-   "NAME": "CITY OF CHRISTCHURCH",
-   "TYP": "FR",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1915/29"
- },
- { 
-   "SERIE":"CM",
-   "NR": "212",
-   "NAME": "CITY OF BOSTON",
-   "TYP": "FR",
-   "LAND": "GB",
-   "St": 1,
-   "JAHR": "1912/22"
- },
- { 
-   "SERIE":"CM",
-   "NR": "22O",
-   "NAME": "MANHATTAN",
-   "TYP": "PA",
-   "LAND": "USA",
-   "St": 2,
-   "JAHR": "1932"
- },
- { 
-   "SERIE":"CM",
-   "NR": "221",
-   "NAME": "REPUBLIC",
-   "TYP": "PA",
-   "LAND": "USA",
-   "St": 1,
-   "JAHR": "1924"
- },
- { 
-   "SERIE":"CM",
-   "NR": "230",
-   "NAME": "REX",
-   "TYP": "PA",
-   "LAND": "I",
-   "St": 1,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "233",
-   "NAME": "MAIN (2) PA",
-   "TYP": "FR",
-   "LAND": "D",
-   "St": 3,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "234",
-   "NAME": "PRINZESS IRENE NDL",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1900"
- },
- { 
-   "SERIE":"CM",
-   "NR": "235",
-   "NAME": "KAISER FRIEDRICH ( LLOYD)",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1898"
- },
- { 
-   "SERIE":"CM",
-   "NR": "235A",
-   "NAME": "KAISER FRIEDRICH (HAPAG)",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1899"
- },
- { 
-   "SERIE":"CM",
-   "NR": "236",
-   "NAME": "BREMEN IV",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "236A",
-   "NAME": "BREMEN IV",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "nach Umb."
- },
- { 
-   "SERIE":"CM",
-   "NR": "237",
-   "NAME": "EUROPA II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1928"
- },
- { 
-   "SERIE":"CM",
-   "NR": "237A",
-   "NAME": "EUROPA II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "nach Umb."
- },
- { 
-   "SERIE":"CM",
-   "NR": "238",
-   "NAME": "COLUMBUS II nach Umb.",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1929"
- },
- { 
-   "SERIE":"CM",
-   "NR": "238A",
-   "NAME": "COLUMBUS II (GRAU )",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1939"
- },
- { 
-   "SERIE":"CM",
-   "NR": "239",
-   "NAME": "BREMEN II",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1897"
- },
- { 
-   "SERIE":"CM",
-   "NR": "240",
-   "NAME": "WILHELM GUSTLOFF",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1937"
- },
- { 
-   "SERIE":"CM",
-   "NR": "241",
-   "NAME": "ROBERT LEY",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1938"
- },
- { 
-   "SERIE":"CM",
-   "NR": "242",
-   "NAME": "DER DEUTSCHE",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1924/35"
- },
- { 
-   "SERIE":"CM",
-   "NR": "243",
-   "NAME": "SIERRA CORDOBA (2) KDF",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1923/34"
- },
- { 
-   "SERIE":"CM",
-   "NR": "245",
-   "NAME": "TOLEDO",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1923"
- },
- { 
-   "SERIE":"CM",
-   "NR": "250",
-   "NAME": "EUROPA I",
-   "TYP": "",
-   "LAND": "",
-   "St": null,
-   "JAHR": ""
- },
- { 
-   "SERIE":"CM",
-   "NR": "251",
-   "NAME": "EUROPA II",
-   "TYP": "",
-   "LAND": "",
-   "St": null,
-   "JAHR": "1889"
- },
- { 
-   "SERIE":"CM",
-   "NR": "252",
-   "NAME": "PRINZ FRIEDRICH WILHELM",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1908"
- },
- { 
-   "SERIE":"CM",
-   "NR": "260",
-   "NAME": "EDFU",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1903"
- },
- { 
-   "SERIE":"CM",
-   "NR": "270",
-   "NAME": "TANGANJIKA",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 1,
-   "JAHR": "1922"
- },
- { 
-   "SERIE":"CM",
-   "NR": "271",
-   "NAME": "KRONPRINZ",
-   "TYP": "PA",
-   "LAND": "D",
-   "St": 2,
-   "JAHR": "1900"
- }
+  {
+    "SERIE": "CM",
+    "NR": "1",
+    "NAME": "RUFIDJI",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "2",
+    "NAME": "ELBING",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "3",
+    "NAME": "ALEMANIA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "4",
+    "NAME": "APOLLO",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "5",
+    "NAME": "MEMPHIS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "6",
+    "NAME": "TRITON",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1920",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "7",
+    "NAME": "HENRY HORN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "8",
+    "NAME": "ANITA L.M. RUSS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "9",
+    "NAME": "CITTA DI AGRIGENTO",
+    "TYP": "PA",
+    "LAND": "I",
+    "St": 7,
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "10",
+    "NAME": "AUGUST THYSSEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "11",
+    "NAME": "DARESSALAM",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "12",
+    "NAME": "BRANDENBURG",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "13",
+    "NAME": "OSTPREUSSEN",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "14",
+    "NAME": "ERPEL",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "15",
+    "NAME": "ULM",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "16",
+    "NAME": "BREMERHAVEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "16B",
+    "NAME": "BRAKE (Seed.-Ost Preussen)",
+    "TYP": "FR/PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1943",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "17",
+    "NAME": "ELSE HUGO STINNES 15",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "18",
+    "NAME": "LUNA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "18a",
+    "NAME": "MINNA",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "19",
+    "NAME": "DÜSSELDORF",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "20N",
+    "NAME": "FRANKENWALD",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 5,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "21",
+    "NAME": "DORTMUND",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "22",
+    "NAME": "ALTONA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "22a",
+    "NAME": "PARANA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "23",
+    "NAME": "HAVELLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "24",
+    "NAME": "HELGOLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "25",
+    "NAME": "HINDENBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "26",
+    "NAME": "SCHEER",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "27",
+    "NAME": "OLDENBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "28",
+    "NAME": "SESOSTRIS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "29",
+    "NAME": "ODENWALD",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "30",
+    "NAME": "CERIGO",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "31",
+    "NAME": "KAISER",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "32",
+    "NAME": "COBRA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "33",
+    "NAME": "PORTLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "34",
+    "NAME": "ORIZABA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "35",
+    "NAME": "RUHR",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "36",
+    "NAME": "RHEINLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "37",
+    "NAME": "ITAURI",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "38",
+    "NAME": "ORINOCO",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "39",
+    "NAME": "BOCHUM",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "40",
+    "NAME": "UNITAS 1",
+    "TYP": "W f",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "41",
+    "NAME": "UNITAS 2-8",
+    "TYP": "W f",
+    "LAND": "D",
+    "St": 8,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "42",
+    "NAME": "UNITAS 9",
+    "TYP": "W f",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "43",
+    "NAME": "WIKINGER",
+    "TYP": "WM",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "44",
+    "NAME": "WIKINGER 6-1O",
+    "TYP": "W f",
+    "LAND": "D",
+    "St": 5,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "48",
+    "NAME": "FRIEDRICH FRANZ IV",
+    "TYP": "FY",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1903",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "49",
+    "NAME": "MECKLENBURG",
+    "TYP": "FY",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "50",
+    "NAME": "CONSUL HORN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "51",
+    "NAME": "FRIEDA HORN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "52",
+    "NAME": "CLAUS HORN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "53",
+    "NAME": "URSULA RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "53a",
+    "NAME": "TEISEN MARU",
+    "TYP": "AK",
+    "LAND": "J",
+    "St": 1,
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "54",
+    "NAME": "HANS RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "55",
+    "NAME": "BERTRAM RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "56",
+    "NAME": "R. C. RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "56a",
+    "NAME": "TEIFUKU MARU",
+    "TYP": "AK",
+    "LAND": "J",
+    "St": 1,
+    "JAHR": "1942",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "57",
+    "NAME": "SOPHIE RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1920",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "58",
+    "NAME": "HEIN HOYER",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "59",
+    "NAME": "KARPFANGER",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "60",
+    "NAME": "GEORGE WASHINGTON",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1908",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "60a",
+    "NAME": "GEORGE WASHINGTON",
+    "TYP": "PA",
+    "LAND": "USA",
+    "St": 1,
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "61",
+    "NAME": "DRESDEN",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1934",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "62",
+    "NAME": "LEIPZIG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "63",
+    "NAME": "OSNABRÜCK",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "64",
+    "NAME": "ALSTER",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "65",
+    "NAME": "COBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "66",
+    "NAME": "FRANKEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "67",
+    "NAME": "NECKAR",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "67a",
+    "NAME": "TAISUI MARU ex MOSEL",
+    "TYP": "AK",
+    "LAND": "J",
+    "St": 1,
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "68",
+    "NAME": "ARUCAS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "69",
+    "NAME": "CHEMNITZ",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "70",
+    "NAME": "LIPPE",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1917/27",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "75",
+    "NAME": "RAUENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "76",
+    "NAME": "MARIENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 5,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "77",
+    "NAME": "FALKENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 11,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "78",
+    "NAME": "KYBFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "79",
+    "NAME": "ALTENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "80",
+    "NAME": "WOLFSBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1916/24",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "81",
+    "NAME": "SCHARLACHBERGER",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 6,
+    "JAHR": "1889",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "84",
+    "NAME": "SCHÖNFELS II",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1918/26",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "85",
+    "NAME": "SCHWANHEIM",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "86",
+    "NAME": "ELEONORE WOERMANN",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "87",
+    "NAME": "KOMMODORE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1910",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "88",
+    "NAME": "ULANGA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "89",
+    "NAME": "TABORA (1) PA",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1912",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "90",
+    "NAME": "WINDHUK",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "91",
+    "NAME": "MONTE OLIVIA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "91a",
+    "NAME": "MONTE OLIVIA",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1945",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "92",
+    "NAME": "MONTE PASCOAL",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "92a",
+    "NAME": "MONTE ROSA",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1945",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "93",
+    "NAME": "SANTA ISABEL",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "94",
+    "NAME": "CAP POLONIO",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914/21",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "95",
+    "NAME": "CAP TRAFALGAR",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "96",
+    "NAME": "ENTRERIOS",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "97",
+    "NAME": "PATAGONIA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1912/37",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "98",
+    "NAME": "RIO de JANEIRO",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914/21",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "99",
+    "NAME": "BAHIA LAURA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1918/38",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "100",
+    "NAME": "PRESIDENT GRANT",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1906",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "101",
+    "NAME": "WUPPERTAL",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "102",
+    "NAME": "KAISERIN AUG . VICTORIA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1905",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "103",
+    "NAME": "BISMARCK",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "104",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "105",
+    "NAME": "IMPERATOR",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "106",
+    "NAME": "FÜRST BISMARCK",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1890",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "107",
+    "NAME": "CAP ARCONA I.",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1907",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "108",
+    "NAME": "MONTE CERVANTES",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "109",
+    "NAME": "CAP ARCONA II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "110",
+    "NAME": "VICTORIA LUISE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1911",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "111",
+    "NAME": "COLUMBUS I",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "112",
+    "NAME": "KÖNIGIN LUISE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "113",
+    "NAME": "HAMBURG",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1899",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "114",
+    "NAME": "VATERLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "115",
+    "NAME": "NEW YORK HAPAG",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "116",
+    "NAME": "KIAUTSCHOU HAPAG",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "117",
+    "NAME": "SAARLAND( Bordwandbesch.) (CARL HAGENBECK )",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "118",
+    "NAME": "VATERLAND II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": -3,
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "119",
+    "NAME": "IDARWALD",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "120",
+    "NAME": "MANNHEIM",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1911",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "121",
+    "NAME": "LÜNEBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "130",
+    "NAME": "CASSEL",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "130A",
+    "NAME": "CASSEL",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "131",
+    "NAME": "GROSSER KURFÜRST",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "132",
+    "NAME": "SCHARNHORST",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1904",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "132A",
+    "NAME": "SCHARNHORST",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "133",
+    "NAME": "SCHLESWIG",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "133a",
+    "NAME": "SCHLESWIG",
+    "TYP": "AH",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "134",
+    "NAME": "GERA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 4,
+    "JAHR": "1890",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "135",
+    "NAME": "KRONPRINZESSIN CECILIE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1906",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "136",
+    "NAME": "KAISER WILHHELM II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1903",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "137",
+    "NAME": "BARBAROSSA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1896",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "138",
+    "NAME": "GNEISENAU",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1903",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "139",
+    "NAME": "KÖNIG ALBERT",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1899",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "140",
+    "NAME": "KRONPRINZ WILHELM",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "141",
+    "NAME": "Kaiser Wilhelm der Grosse",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1897",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "142",
+    "NAME": "FRIEDRICH der GROSSE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1896",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "143",
+    "NAME": "CALIFORNIAN",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "144",
+    "NAME": "OLYMPIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1911",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "145",
+    "NAME": "OCEANIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1899",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "146",
+    "NAME": "BRITANIC ( III)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "147",
+    "NAME": "GEORGIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1931",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "148",
+    "NAME": "TITANIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1912",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "149",
+    "NAME": "HOMERIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "15o",
+    "NAME": "MAJESTIC",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "151",
+    "NAME": "BERENGARIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "152",
+    "NAME": "MAURETANIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "152A",
+    "NAME": "MAURETANIA (GRÜN)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "153",
+    "NAME": "QUEEN ELIZABETH I",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "194o",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "154",
+    "NAME": "QUEEN MARY",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "155",
+    "NAME": "CARPATHIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "156",
+    "NAME": "AQUITANIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "156A",
+    "NAME": "AQUITANIA TruppenT.",
+    "TYP": "AP",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1915",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "156B",
+    "NAME": "AQUITANIA ( Lazarett)",
+    "TYP": "AH",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1916",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "156C",
+    "NAME": "AQUITANIA ( GRAU)",
+    "TYP": "AP",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1946",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "17O",
+    "NAME": "ARAMIS",
+    "TYP": "PA",
+    "LAND": "F",
+    "St": 2,
+    "JAHR": "1931",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "171",
+    "NAME": "NORMANDIE",
+    "TYP": "PA",
+    "LAND": "F",
+    "St": 1,
+    "JAHR": "1932",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "172",
+    "NAME": "MONTANA",
+    "TYP": "PA",
+    "LAND": "F",
+    "St": 1,
+    "JAHR": "1920",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "18O",
+    "NAME": "STATENDAM III",
+    "TYP": "PA",
+    "LAND": "NL",
+    "St": 1,
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "181",
+    "NAME": "EDAM",
+    "TYP": "PA/FR",
+    "LAND": "NL",
+    "St": 4,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "182",
+    "NAME": "SPAARNDAM",
+    "TYP": "FR",
+    "LAND": "NL",
+    "St": 4,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "183",
+    "NAME": "BURGERDIJK",
+    "TYP": "FR",
+    "LAND": "NL",
+    "St": 8,
+    "JAHR": "1921",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "184",
+    "NAME": "KOTA INTEN",
+    "TYP": "FR",
+    "LAND": "NL",
+    "St": 8,
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "185",
+    "NAME": "MERCIER",
+    "TYP": "FR",
+    "LAND": "B",
+    "St": 1,
+    "JAHR": "1915",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "186",
+    "NAME": "BAUDOUINVILLE",
+    "TYP": "PA",
+    "LAND": "B",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "187",
+    "NAME": "MAR del PLATA",
+    "TYP": "FR/PA",
+    "LAND": "B",
+    "St": 3,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "19O",
+    "NAME": "EIGER",
+    "TYP": "FR",
+    "LAND": "CH",
+    "St": 1,
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "2OO",
+    "NAME": "NITTA MARU",
+    "TYP": "PA",
+    "LAND": "J",
+    "St": 2,
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "2O1",
+    "NAME": "KITSURIN MARU",
+    "TYP": "PA",
+    "LAND": "J",
+    "St": 2,
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "209",
+    "NAME": "SOUTHWOLD BELLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "210",
+    "NAME": "CITY of DUNEDIN",
+    "TYP": "FR",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1917",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "211",
+    "NAME": "CITY OF CHRISTCHURCH",
+    "TYP": "FR",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1915/29",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "212",
+    "NAME": "CITY OF BOSTON",
+    "TYP": "FR",
+    "LAND": "GB",
+    "St": 1,
+    "JAHR": "1912/22",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "22O",
+    "NAME": "MANHATTAN",
+    "TYP": "PA",
+    "LAND": "USA",
+    "St": 2,
+    "JAHR": "1932",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "221",
+    "NAME": "REPUBLIC",
+    "TYP": "PA",
+    "LAND": "USA",
+    "St": 1,
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "230",
+    "NAME": "REX",
+    "TYP": "PA",
+    "LAND": "I",
+    "St": 1,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "233",
+    "NAME": "MAIN (2) PA",
+    "TYP": "FR",
+    "LAND": "D",
+    "St": 3,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "234",
+    "NAME": "PRINZESS IRENE NDL",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "235",
+    "NAME": "KAISER FRIEDRICH ( LLOYD)",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1898",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "235A",
+    "NAME": "KAISER FRIEDRICH (HAPAG)",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1899",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "236",
+    "NAME": "BREMEN IV",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "236A",
+    "NAME": "BREMEN IV",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "nach Umb.",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "237",
+    "NAME": "EUROPA II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "237A",
+    "NAME": "EUROPA II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "nach Umb.",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "238",
+    "NAME": "COLUMBUS II nach Umb.",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "238A",
+    "NAME": "COLUMBUS II (GRAU )",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "239",
+    "NAME": "BREMEN II",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1897",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "240",
+    "NAME": "WILHELM GUSTLOFF",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "241",
+    "NAME": "ROBERT LEY",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "242",
+    "NAME": "DER DEUTSCHE",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1924/35",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM",
+    "NR": "243",
+    "NAME": "SIERRA CORDOBA (2) KDF",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1923/34",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM",
+    "NR": "245",
+    "NAME": "TOLEDO",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "250",
+    "NAME": "EUROPA I",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "251",
+    "NAME": "EUROPA II",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": "1889",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "252",
+    "NAME": "PRINZ FRIEDRICH WILHELM",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1908",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "260",
+    "NAME": "EDFU",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1903",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "270",
+    "NAME": "TANGANJIKA",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 1,
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM",
+    "NR": "271",
+    "NAME": "KRONPRINZ",
+    "TYP": "PA",
+    "LAND": "D",
+    "St": 2,
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "",
+    "NAME": "",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": ""
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "1",
+    "NAME": "FLORA",
+    "TYP": "HOS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "2",
+    "NAME": "EL HORRIAH",
+    "TYP": "Y",
+    "LAND": "ET",
+    "ST": "",
+    "JAHR": "1866",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "3",
+    "NAME": "CASSEL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "4",
+    "NAME": "HANSEATIC",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "5",
+    "NAME": "HANSEATIC (II)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "6",
+    "NAME": "HAMBURG",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1969",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "7",
+    "NAME": "DANIA",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "8",
+    "NAME": "BERLIN",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "9",
+    "NAME": "EUROPA (IV)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "10",
+    "NAME": "BREMEN (V)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "11",
+    "NAME": "ANDREA DORIA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "11a",
+    "NAME": "CRISTOFORO COLOMBO",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "13N",
+    "NAME": "KASSEL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "14",
+    "NAME": "TEQUILA SUNRISE",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1970",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "15",
+    "NAME": "EMSSTEIN (NDL)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "15a",
+    "NAME": "EMSSTEIN (Hapag-Lloyd)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "16",
+    "NAME": "HAMBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "17",
+    "NAME": "SANTA URSULA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "18",
+    "NAME": "KATRIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1986",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "19",
+    "NAME": "CAP SAN DIEGO",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "20",
+    "NAME": "NÜRNBERG EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1977",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "21",
+    "NAME": "CAP PALMAS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "22",
+    "NAME": "PADUA",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "23",
+    "NAME": "PERSEUS",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "24",
+    "NAME": "REGINE",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1987",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "25",
+    "NAME": "PATRICIA RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1985",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "26",
+    "NAME": "ARIANA",
+    "TYP": "RO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "27",
+    "NAME": "POLARSTERN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "28",
+    "NAME": "ULF",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "29",
+    "NAME": "SVENJA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "31",
+    "NAME": "LISBOA",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1981",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "32",
+    "NAME": "MONTE ROSA",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1981",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "33",
+    "NAME": "ALEXANDER V.HUMBOLDT",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "34",
+    "NAME": "BRANDENBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "35",
+    "NAME": "BAVARIA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "36",
+    "NAME": "TIMORSUN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "37",
+    "NAME": "CAROLA R.",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "38",
+    "NAME": "MAGDALENA REITH",
+    "TYP": "BF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1973",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "39",
+    "NAME": "WASEBERG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1985",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "40",
+    "NAME": "ACHILLE LAURO",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "41",
+    "NAME": "EUGENIO C.",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "42",
+    "NAME": "FEDERICO C.",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "43",
+    "NAME": "COLUMBUS C.",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "44",
+    "NAME": "VICTORIA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "45",
+    "NAME": "GALILEO GALILEI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "46",
+    "NAME": "RAFFAELLO",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "47",
+    "NAME": "MICHELANGELO.",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "48",
+    "NAME": "ITALIA PRIMA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "49",
+    "NAME": "LEONARDO DA VINCI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "50",
+    "NAME": "EDINBURGH CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "51",
+    "NAME": "PENDENNIS CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "52",
+    "NAME": "WINDSOR CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "53",
+    "NAME": "TRANSVAAL CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "53a",
+    "NAME": "S.A.VAAL",
+    "TYP": "PA",
+    "LAND": "ZA",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "54",
+    "NAME": "SOUTHAMPTON CASTLE",
+    "TYP": "FR",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "54a",
+    "NAME": "FRANCA C.",
+    "TYP": "FR",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "55",
+    "NAME": "REINA DEL MAR",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "56",
+    "NAME": "BLOEMFONTEIN CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "57",
+    "NAME": "RHODESIA CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "58",
+    "NAME": "CITY OF PORT ELIZABETH",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "59",
+    "NAME": "CENTAUR",
+    "TYP": "FR",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "60",
+    "NAME": "CARONIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1949",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "61",
+    "NAME": "QUEEN ELIZABETH 2",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "61b",
+    "NAME": "QUEEN ELIZABETH 2 Rumpf blau/blue hull",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "62",
+    "NAME": "ORSOVA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "63",
+    "NAME": "OCEAN MONARCH",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "64",
+    "NAME": "SOUTHERN CROSS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "65",
+    "NAME": "NORTHERN STAR",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "66",
+    "NAME": "ORCADES (II)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "66a",
+    "NAME": "ORCADES, weißer Rumpf/white hull",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "67",
+    "NAME": "CANBERRA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "68",
+    "NAME": "STAR PRINCESS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "69",
+    "NAME": "ROYAL PRINCESS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "70",
+    "NAME": "INDEPENDENCE",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "71",
+    "NAME": "UNITED STATES",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "72",
+    "NAME": "ARGENTINA",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "73",
+    "NAME": "BRASIL",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "74",
+    "NAME": "AMERICAN CHALLENGER",
+    "TYP": "FR",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "75",
+    "NAME": "JUBILEE",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1986",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "76",
+    "NAME": "FESTIVALE",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "77",
+    "NAME": "TROPICALE",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1980",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "80",
+    "NAME": "LEDA",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "81",
+    "NAME": "OSLOFJORD (II)",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1949",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "82",
+    "NAME": "BERGENSFJORD (II)",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "83",
+    "NAME": "SOVEREIGN OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "84",
+    "NAME": "SEAWARD",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "85",
+    "NAME": "KASSEL, Neuauflage/new edition",
+    "TYP": "AU",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1987",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "86",
+    "NAME": "STATENDAM (V)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1993",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "87",
+    "NAME": "ROTTERDAM (VI)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1997",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "88",
+    "NAME": "VOLENDAM (III)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1999",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "89",
+    "NAME": "ALBATROS",
+    "TYP": "PA",
+    "LAND": "MC",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "89a",
+    "NAME": "DAWN PRINCESS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "90",
+    "NAME": "FERD.FREILIGRATH",
+    "TYP": "KS",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "91",
+    "NAME": "GRÖDITZ",
+    "TYP": "BF",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "92",
+    "NAME": "GEORG HANDKE",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "93",
+    "NAME": "DRESDEN Typ FRIEDEN",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "94",
+    "NAME": "RADEBEUL",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "95",
+    "NAME": "J.G.FICHTE",
+    "TYP": "TR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "96",
+    "NAME": "THEODOR KÖRNER",
+    "TYP": "TR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "97",
+    "NAME": "MAXIM GORKI",
+    "TYP": "PA",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1969",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "98",
+    "NAME": "IVAN FRANKO",
+    "TYP": "PA",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "99",
+    "NAME": "KASAKHSTAN",
+    "TYP": "PA",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "100",
+    "NAME": "ODESSA",
+    "TYP": "PA",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "101",
+    "NAME": "KUNGSHOLM (III)",
+    "TYP": "PA",
+    "LAND": "S",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "102",
+    "NAME": "STOCKHOLM (IV)",
+    "TYP": "PA",
+    "LAND": "S",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "104",
+    "NAME": "MUNKSUND",
+    "TYP": "FR",
+    "LAND": "S",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "115",
+    "NAME": "SHALOM",
+    "TYP": "PA",
+    "LAND": "IL",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "117",
+    "NAME": "CROWN ODYSSEY",
+    "TYP": "PA",
+    "LAND": "GR",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "120",
+    "NAME": "ANGELBURG",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "121",
+    "NAME": "REMSCHEID",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "122",
+    "NAME": "LEVERKUSEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "123",
+    "NAME": "TABORA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "124",
+    "NAME": "ERIK BLUMENFELD",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "125",
+    "NAME": "CAP COLORADO",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "126",
+    "NAME": "CAP CASTILLO",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "127",
+    "NAME": "KANDELFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "128",
+    "NAME": "WILLY RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "129",
+    "NAME": "SYRTHE",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "130",
+    "NAME": "CAP NORTE",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "131",
+    "NAME": "EUROPA (IV)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1981",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "132",
+    "NAME": "VOGTLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "133",
+    "NAME": "ALEMANIA EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1978",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "134",
+    "NAME": "KALAHARI",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "135",
+    "NAME": "EUROPA (III) H-L",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "136",
+    "NAME": "SANTA RITA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "137",
+    "NAME": "NÜRNBERG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "138",
+    "NAME": "BURG SPARRENBERG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "139",
+    "NAME": "NATAL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "140",
+    "NAME": "SCHIE LLOYD",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "141",
+    "NAME": "KERTOSONO",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "142",
+    "NAME": "RYNDAM",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "143",
+    "NAME": "ROTTERDAM (V)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "144",
+    "NAME": "AMSTELDYK ~",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1944",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "145",
+    "NAME": "ZUIDERDAM",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "2003",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "146",
+    "NAME": "WILLEM RUYS",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "147",
+    "NAME": "KARSIK",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "148",
+    "NAME": "BREDA (2)",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1945",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "149",
+    "NAME": "VOLENDAM (I)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "150",
+    "NAME": "HUMBOLDT EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "151",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "151a",
+    "NAME": "DEUTSCHLAND (DFO)",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "152",
+    "NAME": "CAPERATA",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "153",
+    "NAME": "RYNDAM",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "154",
+    "NAME": "TASSO",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "155",
+    "NAME": "% ILSE",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1993",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "156",
+    "NAME": "% MARE ADRIATICUM",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1993",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "157",
+    "NAME": "BREMEN (VI)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "158",
+    "NAME": "MARE IBERICUM",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1994",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "159",
+    "NAME": "MARE GALLICUM",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "160",
+    "NAME": "RIEDERSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "160a",
+    "NAME": "REGENSTEIN (Hapag-Lloyd)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "161",
+    "NAME": "RENDSBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "162",
+    "NAME": "MÜNSTERLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "163",
+    "NAME": "NORDWIND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "164",
+    "NAME": "BAYERNSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "165",
+    "NAME": "HAMBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "166",
+    "NAME": "MÜNCHEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "167",
+    "NAME": "DRESDEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "168",
+    "NAME": "ETHA RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "169",
+    "NAME": "CAP ORTEGAL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "170",
+    "NAME": "TRANSVAAL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "171",
+    "NAME": "CAP VERDE",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "172",
+    "NAME": "KASSEL",
+    "TYP": "FF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "172a",
+    "NAME": "RAVENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "173",
+    "NAME": "HANNOVERLAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "174",
+    "NAME": "RAVENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "175",
+    "NAME": "AIDA",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "176",
+    "NAME": "GEYERFELS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1971",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "177",
+    "NAME": "RUHR EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1980",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "178",
+    "NAME": "ACADIA",
+    "TYP": "CS",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1971",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "179",
+    "NAME": "UNION",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "180",
+    "NAME": "FRANKFURT",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "181",
+    "NAME": "HAMBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "182",
+    "NAME": "CUXHAVEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "183",
+    "NAME": "BERLIN EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1989",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "184",
+    "NAME": "ARCTIC",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1969",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "185",
+    "NAME": "c.COLUMBUS",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1997",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "186",
+    "NAME": "HEIDELBERG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "187",
+    "NAME": "PISANG",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "188",
+    "NAME": "GLORIA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1997",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "189",
+    "NAME": "TRINA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "190",
+    "NAME": "BELGRANO",
+    "TYP": "BF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "191",
+    "NAME": "CAP ROCA",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "192",
+    "NAME": "POLAR ARGENTINA",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "193",
+    "NAME": "CARIBIC",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1977",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "194",
+    "NAME": "SANTA ISABEL",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "195",
+    "NAME": "WOTAN",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "196",
+    "NAME": "MAILAND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "197",
+    "NAME": "BRUNSHAUSEN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "198",
+    "NAME": "SCHLESWIG-HOLSTEIN",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1997",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "199",
+    "NAME": "SASSNITZ",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1989",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "200",
+    "NAME": "MECKLENBURG-VORPOMMERN",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "201",
+    "NAME": "ETHA RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "202",
+    "NAME": "MAI RICKMERS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "205",
+    "NAME": "KAMERUN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "206",
+    "NAME": "PALABORA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "210",
+    "NAME": "BÄRENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "211",
+    "NAME": "KYBFELS, Neuauflage/new edition",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "212",
+    "NAME": "LIEBENFELS (III), Neuauflage/new edition",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "213",
+    "NAME": "ROTENFELS (IV)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "214",
+    "NAME": "DRACHENFELS (IV)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "215",
+    "NAME": "BRAUNFELS (V)",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1977",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "216",
+    "NAME": "UHENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "217",
+    "NAME": "WILDENFELS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "220",
+    "NAME": "LUDWIGSHAFEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1970",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "221",
+    "NAME": "MARBURG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "222",
+    "NAME": "STUTTGART",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "223",
+    "NAME": "BRAUNSCHWEIG",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "224",
+    "NAME": "MÜNCHEN",
+    "TYP": "LS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "224a",
+    "NAME": "Leichter/barges (7)",
+    "TYP": "A",
+    "LAND": "",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "225",
+    "NAME": "SPREEWALD",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "226",
+    "NAME": "WIEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "227",
+    "NAME": "DÜSSELDORF",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "228",
+    "NAME": "% TÜBINGEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "230",
+    "NAME": "MOSELSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "231",
+    "NAME": "BIEBERSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "232",
+    "NAME": "FRIESENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "233",
+    "NAME": "BADENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1968",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "236",
+    "NAME": "FLENSBURG (III) \"HAMBURG-AMERIKA-LINIE\" am Rumpf/on hull ~",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "237",
+    "NAME": "CARIBIA EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "240",
+    "NAME": "EUROPA (V)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1999",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "241",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1998",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "241a",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1998",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "241b",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1998",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "241c",
+    "NAME": "DEUTSCHLAND",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1998",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "242",
+    "NAME": "ASTOR (II)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1987",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "242a",
+    "NAME": "FEDOR DOSTOEVSKIY",
+    "TYP": "PA",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1987",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "243",
+    "NAME": "DELPHIN",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "244",
+    "NAME": "ATHENA",
+    "TYP": "PA",
+    "LAND": "P",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "245",
+    "NAME": "ARTANIA",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1985",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "246",
+    "NAME": "AMERA",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2019",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "247",
+    "NAME": "AMADEA",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2015",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "250",
+    "NAME": "PENTELIKON",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "251",
+    "NAME": "HENRY HORN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "252",
+    "NAME": "STADT SCHLESWIG",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "253",
+    "NAME": "CLAUS HORN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "254",
+    "NAME": "HILDE HORN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "255",
+    "NAME": "HORNSTERN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "256",
+    "NAME": "CAROLINE HORN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "KR 257",
+    "NAME": "MINDEN",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1964",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "KR 258",
+    "NAME": "CAP DOMINGO",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "260",
+    "NAME": "FRANCE",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "261",
+    "NAME": "FLANDRE (II)",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "262",
+    "NAME": "ANTILLES (II)",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "263",
+    "NAME": "LIBERTÉ",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "265",
+    "NAME": "MISTRAL",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1999",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "267",
+    "NAME": "ELISABETHVILLE",
+    "TYP": "PA",
+    "LAND": "B",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "268",
+    "NAME": "JADOTVILLE",
+    "TYP": "PA",
+    "LAND": "B",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "269",
+    "NAME": "BASTOGNE",
+    "TYP": "FR",
+    "LAND": "B",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "270",
+    "NAME": "NORWAY",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "271",
+    "NAME": "NORWEGIAN SEA",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "272",
+    "NAME": "NORWEGIAN CROWN",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "273",
+    "NAME": "GRANDEUR OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "274",
+    "NAME": "VOYAGER OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "2000",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "275",
+    "NAME": "RADIANCE OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "276",
+    "NAME": "FREEDOM OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "2006",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "277",
+    "NAME": "CROWN PRINCESS",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "278",
+    "NAME": "COSTA ATLANTICA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2000",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "279",
+    "NAME": "COSTA FORTUNA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2004",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "280",
+    "NAME": "% CAP SALINAS",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "281",
+    "NAME": "CAP FRIO (II)",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "282",
+    "NAME": "CAP VALIENTE",
+    "TYP": "KS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "283",
+    "NAME": "SANTA INES",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "284",
+    "NAME": "RICHARD KASELOWSKY",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "285",
+    "NAME": "% BERTIOGA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "287",
+    "NAME": "PARAGUAY CARRIER",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1983",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "288",
+    "NAME": "ERIKA",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "289",
+    "NAME": "GUSTAV PISTOR",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "290",
+    "NAME": "HEINRICH HEINE",
+    "TYP": "KS",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "291",
+    "NAME": "ROSTOCK, Typ X D",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "292",
+    "NAME": "PRITZWALK",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1978",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "293",
+    "NAME": "BERTOLT BRECHT",
+    "TYP": "FF",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1960",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "294",
+    "NAME": "BERLIN HAUPTSTADT DER DDR",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1980",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "295",
+    "NAME": "GEORG BÜCHNER",
+    "TYP": "PA",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "296",
+    "NAME": "RUDOLF DIESEL",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "297",
+    "NAME": "LEUNA I",
+    "TYP": "TA",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "298",
+    "NAME": "THEODOR FONTANE",
+    "TYP": "KS",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1966",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "299",
+    "NAME": "ALTMARK",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1959",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "300",
+    "NAME": "FAIRWIND",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "301",
+    "NAME": "HERMOD",
+    "TYP": "BF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1973",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "302",
+    "NAME": "MEXICA",
+    "TYP": "FR",
+    "LAND": "Zyp",
+    "ST": "",
+    "JAHR": "1985",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "303",
+    "NAME": "WANGONI",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1983",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "304",
+    "NAME": "HAMBURG EXPRESS",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "305",
+    "NAME": "KALAHARI",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1978",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "306",
+    "NAME": "CAP SAN NICOLAS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "307",
+    "NAME": "ADRIAN MAERSK",
+    "TYP": "CS",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "308",
+    "NAME": "BRUNI",
+    "TYP": "RO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1977",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "309",
+    "NAME": "CARLOS FISCHER",
+    "TYP": "TA",
+    "LAND": "BR",
+    "ST": "",
+    "JAHR": "2002",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "310",
+    "NAME": "LONDON EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1991",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "310N",
+    "NAME": "LONDON EXPRESS, Rumpf orange/orange hull",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1991",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "311",
+    "NAME": "RICKMERS HAMBURG",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2002",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "315",
+    "NAME": "MAERSK HAMBURG",
+    "TYP": "CS",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "1993",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "316",
+    "NAME": "DAL KALAHARI (II)",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2005",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "317",
+    "NAME": "COLOMBO EXPRESS",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2005",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "318",
+    "NAME": "LAUST MAERSK",
+    "TYP": "CS#",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "319",
+    "NAME": "JESSIE MAERSK",
+    "TYP": "TA",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "1974",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "320",
+    "NAME": "A' ROSA BLU",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "321",
+    "NAME": "AIDAblue",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2004",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "322",
+    "NAME": "QUEEN ELIZABETH",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2010",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "323",
+    "NAME": "QUEEN MARY 2",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2004",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "324",
+    "NAME": "QUEEN VICTORIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2007",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "325",
+    "NAME": "ARCADIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2005",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "326",
+    "NAME": "AIDAcara",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "327",
+    "NAME": "AIDAvita",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2007",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "328",
+    "NAME": "AIDAdiva",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2007",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "329",
+    "NAME": "AIDAsol",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2011",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "330",
+    "NAME": "CARNIVAL SPIRIT",
+    "TYP": "PA",
+    "LAND": "PA",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "331",
+    "NAME": "FANTASY",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "332",
+    "NAME": "CARNIVAL DESTINY",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "333",
+    "NAME": "CARNIVAL SPLENDOR",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "2008",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "336",
+    "NAME": "CENTURY",
+    "TYP": "PA",
+    "LAND": "GR",
+    "ST": "",
+    "JAHR": "1995",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "337",
+    "NAME": "GALAXY",
+    "TYP": "PA",
+    "LAND": "GR",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "340",
+    "NAME": "AUGUSTUS",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "341",
+    "NAME": "ROSSINI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "342",
+    "NAME": "AMERIGO VESPUCCI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1949",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "344",
+    "NAME": "GUGLIELMO MARCONI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "345",
+    "NAME": "COSTA TROPICALE",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "346",
+    "NAME": "CARLA C",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1952",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "347",
+    "NAME": "FULVIA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1949",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "348",
+    "NAME": "COSTA neoRIVIERA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1999",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "350",
+    "NAME": "MECKLENBURG-VORPOMMERN, \"Scandlines-HANSA\"",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1996",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "351",
+    "NAME": "DEUTSCHLAND, \"Scandlines Vogelfluglinie\"",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1997",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "355",
+    "NAME": "BLEICHEN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "356",
+    "NAME": "RAVENNA",
+    "TYP": "BF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1970",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "357",
+    "NAME": "RICKMER RICKMERS (Museum)",
+    "TYP": "FRs",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1896",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "358",
+    "NAME": "PEKING (Museum)",
+    "TYP": "FRs",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1911",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "360",
+    "NAME": "MONTE SARMIENTO (IV)",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2005",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "361",
+    "NAME": "%CAP TRAFALGAR (85.-)",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1990",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "362",
+    "NAME": "SANTA CLARA",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2010",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "KR 364",
+    "NAME": "BAHIA",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2007",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "363",
+    "NAME": "CAP SAN NICOLAS (III)",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2013",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "370",
+    "NAME": "BURGENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "371",
+    "NAME": "BIRKENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "380",
+    "NAME": "KINDERDYK (II)",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "381",
+    "NAME": "DIEMERDIJK (I)",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "382",
+    "NAME": "STATENDAM",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "383",
+    "NAME": "DUIVENDIJK",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "384",
+    "NAME": "MONTFERLAND",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "385",
+    "NAME": "DINTELDYK (III)",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "386",
+    "NAME": "HOLLANDIA",
+    "TYP": "CS",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "387",
+    "NAME": "NIEUW HOLLAND",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "388",
+    "NAME": "NEDLLOYD VAN NOORT",
+    "TYP": "CS",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "388a",
+    "NAME": "Containersatz/set of containers",
+    "TYP": "",
+    "LAND": "",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "389",
+    "NAME": "IBERIA STAR",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "390",
+    "NAME": "TROJAN STAR (II)",
+    "TYP": "KS",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "391",
+    "NAME": "URUGUAY STAR",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1947",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "395",
+    "NAME": "PORT MELBOURNE",
+    "TYP": "FR",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "399",
+    "NAME": "TANTALUS",
+    "TYP": "FR",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1943",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "400",
+    "NAME": "PRIDE OF AMERICA",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "2005",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "401",
+    "NAME": "OASIS OF THE SEAS",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "2009",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "405",
+    "NAME": "PRINSENDAM",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "406",
+    "NAME": "VEENDAM (III)",
+    "TYP": "PA",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1973",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "407",
+    "NAME": "BILDERDYK",
+    "TYP": "LS",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "409",
+    "NAME": "CRYSTAL PRINCE",
+    "TYP": "KS",
+    "LAND": "B",
+    "ST": "",
+    "JAHR": "1992",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "410",
+    "NAME": "BUCHENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1958",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "411",
+    "NAME": "BREITENSTEIN",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "412",
+    "NAME": "CHRISTIANNA PIKURITZ",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "429",
+    "NAME": "MÜNCHEN",
+    "TYP": "FF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "430",
+    "NAME": "MAERSK WAVE",
+    "TYP": "FR",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "431",
+    "NAME": "EMMA MAERSK m.Decals f.Namen u.Container/w.decals f.names and containers",
+    "TYP": "CS",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "2006",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "432",
+    "NAME": "MAERSK ELBA",
+    "TYP": "CS",
+    "LAND": "DK",
+    "ST": "",
+    "JAHR": "2011",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "435",
+    "NAME": "SAGAFJORD",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "436",
+    "NAME": "VISTAFJORD",
+    "TYP": "PA",
+    "LAND": "N",
+    "ST": "",
+    "JAHR": "1972",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "440",
+    "NAME": "KENYA CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "441",
+    "NAME": "REINA DEL MAR",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1956",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "442",
+    "NAME": "ATHLONE CASTLE",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "443",
+    "NAME": "PRETORIA CASTLE (II)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "445",
+    "NAME": "ARTEMIS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "446",
+    "NAME": "CATHAY",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1957",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "447",
+    "NAME": "ARCADIA (III)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1988",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "448",
+    "NAME": "ADONIA",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "449",
+    "NAME": "COSTA MAGICA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2004",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "450",
+    "NAME": "COSTA CONCORDIA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2006",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "450a",
+    "NAME": "COSTA SERENA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2007",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "450b",
+    "NAME": "COSTA PACIFICA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2009",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "451",
+    "NAME": "SAGAFJORD",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "453",
+    "NAME": "ANDRIA (II)",
+    "TYP": "KS",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1973",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "454",
+    "NAME": "ALSATIA (II)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "455",
+    "NAME": "CARONIA (III)",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1973",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "KR 457",
+    "NAME": "SPIRIT OF HAMBURG",
+    "TYP": "CS",
+    "LAND": "UK",
+    "ST": "",
+    "JAHR": "2017",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "458",
+    "NAME": "CP SINALOA",
+    "TYP": "CS#",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1987",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "459",
+    "NAME": "BEAVERBRAE",
+    "TYP": "FR",
+    "LAND": "CDN",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "460",
+    "NAME": "ALBIN KÖBIS (Typ X B)",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "461",
+    "NAME": "KARL MARX",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1971",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "462",
+    "NAME": "SCHWEDT (III)",
+    "TYP": "TA",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1975",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "463",
+    "NAME": "NORDHAUSEN",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "464",
+    "NAME": "EDGAR ANDRÉ",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "466",
+    "NAME": "VÖLKERFREUNDSCHAFT",
+    "TYP": "PA",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "467",
+    "NAME": "WISMAR",
+    "TYP": "FR",
+    "LAND": "DDR",
+    "ST": "",
+    "JAHR": "1969",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "470",
+    "NAME": "PRESIDENT POLK",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "471",
+    "NAME": "EXCALIBUR",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1944",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "480",
+    "NAME": "AZORES",
+    "TYP": "PA",
+    "LAND": "P",
+    "ST": "",
+    "JAHR": "1948",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "485",
+    "NAME": "LUBUMBASHI,Sondermodell 20 Jahre Sammlertreffen in Belgien",
+    "TYP": "FR",
+    "LAND": "B",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "490",
+    "NAME": "SAGA RUBY",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2014",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "500",
+    "NAME": "MEIN SCHIFF",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1967",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "501",
+    "NAME": "HAMBURG",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2012",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "502",
+    "NAME": "COLUMBUS 2",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2012",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "503",
+    "NAME": "EUROPA 2",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2013",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "511",
+    "NAME": "PACIFIC ARIA, lieferbar/due 12-18",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2015",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "530",
+    "NAME": "HAMBURG EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2012",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "531",
+    "NAME": "SANTIAGO EXPRESS",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1984",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "532",
+    "NAME": "VALPARAISO EXPRESS",
+    "TYP": "CS#",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2012",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "533",
+    "NAME": "ALTAMIRA EXPRESS,",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1994",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "540",
+    "NAME": "CASTEL NEVOSO",
+    "TYP": "KS",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "541",
+    "NAME": "TOSCANA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "542",
+    "NAME": "ESQUILINO",
+    "TYP": "FR",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "543",
+    "NAME": "AUSTRALIA",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1951",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "549",
+    "NAME": "AURELIA,",
+    "TYP": "FR",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "550",
+    "NAME": "PUERTO ROSARIO",
+    "TYP": "BF",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "2014",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "551",
+    "NAME": "NIPPON",
+    "TYP": "FR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1986",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "552",
+    "NAME": "%KALAMATA TRADER (88.-)",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2016",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "553",
+    "NAME": "%TOKYO TRADER (78.-)",
+    "TYP": "CS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2016",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "560",
+    "NAME": "EGMONT",
+    "TYP": "TA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "570",
+    "NAME": "MUSI LLOYD",
+    "TYP": "FR",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "580",
+    "NAME": "CLAUDE BERNARD",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "585",
+    "NAME": "CHARLES TELLIER",
+    "TYP": "PA",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1962",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "590",
+    "NAME": "TAHITIAN PRINCESS",
+    "TYP": "PA",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1999",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "595",
+    "NAME": "R ONE",
+    "TYP": "PA",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1998",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "600",
+    "NAME": "ROMANZA,",
+    "TYP": "PA",
+    "LAND": "GR",
+    "ST": "",
+    "JAHR": "1970",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "610",
+    "NAME": "AURORA,",
+    "TYP": "CS#",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "2001",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "620",
+    "NAME": "MING PEACE",
+    "TYP": "CS",
+    "LAND": "tw",
+    "ST": "",
+    "JAHR": "1986",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "630",
+    "NAME": "GALILEO GALILEI",
+    "TYP": "PA",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "650",
+    "NAME": "AIDAmira",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "2019",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "1",
+    "NAME": "%PANTERA (70.00)",
+    "TYP": "FR",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-KR",
+    "NR": "2",
+    "NAME": "%FRANCA (70.00)",
+    "TYP": "FR",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "",
+    "NAME": "",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": ""
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "01",
+    "NAME": "KAISER",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1905",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "02",
+    "NAME": "COBRA",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1926",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "03",
+    "NAME": "HELGOLAND",
+    "TYP": "APB",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "03a",
+    "NAME": "HELGOLAND, getarnt/camoufl.",
+    "TYP": "APB",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "04",
+    "NAME": "KÖNIGIN LUISE",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1913",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "05",
+    "NAME": "TEIA MARU",
+    "TYP": "AP",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "06",
+    "NAME": "W 16",
+    "TYP": "P",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "07",
+    "NAME": "HUGIN",
+    "TYP": "TR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1917",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "08",
+    "NAME": "SEEADLER",
+    "TYP": "HCs",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1888",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "09",
+    "NAME": "HORST WESSEL (ohne Segel/without sails)",
+    "TYP": "AXs",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "10",
+    "NAME": "GORCH FOCK (ohne Segel/without sails)",
+    "TYP": "AXs",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1934",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "11",
+    "NAME": "HOLLAND",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "12",
+    "NAME": "PRETORIA",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "13",
+    "NAME": "Sperrbrecher I",
+    "TYP": "SP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1918",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "14",
+    "NAME": "ENTRERIOS, H 43",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "15",
+    "NAME": "ROLAND",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "16",
+    "NAME": "KÖNIGIN LUISE",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1934",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "17",
+    "NAME": "ARDEAL",
+    "TYP": "VTS",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "18",
+    "NAME": "LOTHRINGEN",
+    "TYP": "AO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "19",
+    "NAME": "SCHWANECK, A 19",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "20",
+    "NAME": "ALDEBARAN, RO 3",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1920",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "21",
+    "NAME": "BREMEN (Tarnbemalung/camoufl.)",
+    "TYP": "APB",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "22",
+    "NAME": "EUROPA (Tarnbemalung/camoufl.)",
+    "TYP": "APB",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "23",
+    "NAME": "LINDAU",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "24",
+    "NAME": "CAP TRAFALGAR",
+    "TYP": "HC",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "25",
+    "NAME": "H-15, MAR DEL PLATA",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "26",
+    "NAME": "A-14, KELLERWALD",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "27",
+    "NAME": "KRONPRINZ WILHELM",
+    "TYP": "HC",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "28",
+    "NAME": "KAISER WILHELM DER GROSSE",
+    "TYP": "HC",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1897",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "29",
+    "NAME": "RIO PARDO, SP 4",
+    "TYP": "SP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1905",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "30",
+    "NAME": "QUEEN MARY",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "31",
+    "NAME": "QUEEN ELIZABETH",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "32",
+    "NAME": "MAURETANIA",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "33",
+    "NAME": "STIRLING CASTLE",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "35",
+    "NAME": "CAPETOWN CATLE",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "36",
+    "NAME": "PASTEUR",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "38",
+    "NAME": "JUSTICIA, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1917",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "39",
+    "NAME": "OLYMPIC, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1911",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "40",
+    "NAME": "SEEFAHRT, M 1702",
+    "TYP": "P",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1933",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "41",
+    "NAME": "SAO PAULO, SP 8",
+    "TYP": "SP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1896",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "42",
+    "NAME": "RIO NEGRO",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1905",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "43",
+    "NAME": "SCHWARZWALD, SP 9",
+    "TYP": "SP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1912",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "44",
+    "NAME": "SIERRA VENTANA",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1912",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "45",
+    "NAME": "VINETA",
+    "TYP": "HC",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1915",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "46",
+    "NAME": "CHOISING",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "47",
+    "NAME": "KEHRWIEDER",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "48",
+    "NAME": "RÜGEN",
+    "TYP": "N",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "50",
+    "NAME": "LEVIATHAN (Tarnbemalung/camoufl.)",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "51",
+    "NAME": "RED CROSS",
+    "TYP": "AH",
+    "LAND": "CH",
+    "ST": "",
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "52",
+    "NAME": "AMERICA, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1905",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "53",
+    "NAME": "MOUNT VERNON, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1909",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "54",
+    "NAME": "GEORGE WASHINGTON, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1902",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "55",
+    "NAME": "POCAHONTAS, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1900",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "59",
+    "NAME": "STUTTGART",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "60",
+    "NAME": "PHOENICIA",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "61",
+    "NAME": "WILHELM GUSTLOFF",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "62",
+    "NAME": "ROBERT LEY",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "63",
+    "NAME": "URUNDI",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "64",
+    "NAME": "VEENDAM",
+    "TYP": "APB",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "65",
+    "NAME": "STRASSBURG",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "66",
+    "NAME": "STRASSBURG, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "67",
+    "NAME": "TEIZUI MARU",
+    "TYP": "AK",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "68",
+    "NAME": "HIKAWA MARU Nr.2",
+    "TYP": "AH",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "69",
+    "NAME": "HOKOKU MARU, getarnt/camoufl.",
+    "TYP": "HC",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "70",
+    "NAME": "WIKINGER",
+    "TYP": "AO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1929",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "71",
+    "NAME": "STEUBEN, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "72",
+    "NAME": "HUASCARAN",
+    "TYP": "AR",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "75",
+    "NAME": "SCHWABENLAND, getarnt/camoufl.",
+    "TYP": "KAT",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1925",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "76",
+    "NAME": "FRIESENLAND",
+    "TYP": "KAT",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "77",
+    "NAME": "OSTMARK",
+    "TYP": "KAT",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "78",
+    "NAME": "Hilfsflugzeugträger I, Projekt 1942 (EUROPA)",
+    "TYP": "R",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "79",
+    "NAME": "WESTFALEN",
+    "TYP": "KAT",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1908",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "80",
+    "NAME": "NEPTUNIA",
+    "TYP": "AP",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1932",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "81",
+    "NAME": "OCEANIA, getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1933",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "82",
+    "NAME": "SICILIA",
+    "TYP": "AH",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1924",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "83",
+    "NAME": "SPARVIERO",
+    "TYP": "R",
+    "LAND": "I",
+    "ST": "",
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "90",
+    "NAME": "KEHRWIEDER",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1901",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "91",
+    "NAME": "WEISSENBURG",
+    "TYP": "AO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "92",
+    "NAME": "MEMELLAND",
+    "TYP": "AO",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "93",
+    "NAME": "RÜGEN",
+    "TYP": "AH",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1914",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "94",
+    "NAME": "YANG TSE",
+    "TYP": "AK",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1915",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "95",
+    "NAME": "BIRKENFELS (2)",
+    "TYP": "AP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "100",
+    "NAME": "PASTEUR",
+    "TYP": "AP",
+    "LAND": "F",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "120",
+    "NAME": "OSORNO",
+    "TYP": "SP",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1938",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "160",
+    "NAME": "AIKOKU MARU, getarnt/camoufl.",
+    "TYP": "HC",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "161",
+    "NAME": "GOKOKU MARU",
+    "TYP": "HC",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "168",
+    "NAME": "KOTOBUKI MARU",
+    "TYP": "AP",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "169",
+    "NAME": "TEIKOKU MARU",
+    "TYP": "AK",
+    "LAND": "J",
+    "ST": "",
+    "JAHR": "1940",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "190",
+    "NAME": "ERKIN",
+    "TYP": "AR",
+    "LAND": "TR",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1000",
+    "NAME": "TARAWA",
+    "TYP": "LH",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1976",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1002",
+    "NAME": "WASP, LHD-1",
+    "TYP": "LH",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1989",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1004",
+    "NAME": "GUAM, LPH 9",
+    "TYP": "L",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1005",
+    "NAME": "GUADALCANAL, LHP 7",
+    "TYP": "L",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1963",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1006",
+    "NAME": "IWO JIMA, LPH 2",
+    "TYP": "LH",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1010",
+    "NAME": "FORRESTAL, CV 59",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1955",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1013",
+    "NAME": "KITTY HAWK, CV 63",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1016",
+    "NAME": "ENTERPRISE, CVN 65",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1961",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1017",
+    "NAME": "THEODORE ROOSEVELT, CVN 71",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1986",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1018",
+    "NAME": "ABRAHAM LINCOLN, CVN 72",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1989",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1019",
+    "NAME": "GEORGE WASHINGTON, CVN 73",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1992",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1020",
+    "NAME": "ADMIRAL KUZNETSOV",
+    "TYP": "R",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "1991",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1020A",
+    "NAME": "MiG 29",
+    "TYP": "",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1020B",
+    "NAME": "Sukhoi Su 27",
+    "TYP": "",
+    "LAND": "SU",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1030",
+    "NAME": "UNITED STATES, CVB 58",
+    "TYP": "R",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1950",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1090",
+    "NAME": "LEJEUNE, AP 74",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1936",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1091",
+    "NAME": "EUROPA, AP 177",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1092",
+    "NAME": "Victory Typ",
+    "TYP": "AK",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1942",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1093",
+    "NAME": "PRESIDENT COOLIDGE",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1931",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1094",
+    "NAME": "PRESIDENT HAYES, APA 20",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1095",
+    "NAME": "LAFAYETTE, AP 53 getarnt/camoufl.",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1935",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1096",
+    "NAME": "DAUPHIN, APA 97",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1944",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1097",
+    "NAME": "HERCULES, AK 41",
+    "TYP": "AK",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1098",
+    "NAME": "WESTPOINT, AP 23",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1099",
+    "NAME": "GRIFFIN, AS 13",
+    "TYP": "AR",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1941",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1100",
+    "NAME": "PELIAS, AS 14",
+    "TYP": "AR",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1101",
+    "NAME": "WAKEFIELD, AP 21, lieferbar/due 02-2018",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1932",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1103",
+    "NAME": "PENNANT",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1104",
+    "NAME": "HAVEN AH 12",
+    "TYP": "AH",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "1945",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1105",
+    "NAME": "MARINE RAVEN,",
+    "TYP": "AP",
+    "LAND": "USA",
+    "ST": "",
+    "JAHR": "",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1220",
+    "NAME": "AUDACITY, getarnt/camoufl.",
+    "TYP": "RE",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1221",
+    "NAME": "CALEDONIA",
+    "TYP": "AX",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1242",
+    "NAME": "SOMMELSDIJK",
+    "TYP": "AK",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1243",
+    "NAME": "ONDINA",
+    "TYP": "AO",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1939",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1244",
+    "NAME": "CURACAO",
+    "TYP": "AK",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1930",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1245",
+    "NAME": "OP TEN NOORT",
+    "TYP": "AH",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1927",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1246",
+    "NAME": "NIEUW ZEELAND",
+    "TYP": "AP",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1928",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1247",
+    "NAME": "DEMPO",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1931",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1248",
+    "NAME": "VOLENDAM",
+    "TYP": "AP",
+    "LAND": "GB",
+    "ST": "",
+    "JAHR": "1922",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1249",
+    "NAME": "NIJKERK",
+    "TYP": "AP",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1915",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-P",
+    "NR": "1250",
+    "NAME": "SEMBILANGAN",
+    "TYP": "AK",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1912",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "",
+    "NAME": "",
+    "TYP": "",
+    "LAND": "",
+    "St": null,
+    "JAHR": ""
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "79",
+    "NAME": "KAISER LEOPOLD",
+    "TYP": "FF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1916",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "84",
+    "NAME": "KASSEL",
+    "TYP": "FF",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1916",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "85",
+    "NAME": "SÜD AMERIKA VII",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1914",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "86",
+    "NAME": "GEORGSWÄRDER",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1923",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "89",
+    "NAME": "JAN",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1937",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "90",
+    "NAME": "FAIRPLAY VII",
+    "TYP": "TUG",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1943",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "100",
+    "NAME": "VORWÄRTS",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1906",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "101",
+    "NAME": "ST.PAULI (Typ IIIb) , unbemalt/unpainted",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1953",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "102",
+    "NAME": "REEPERBAHN (Typ II)",
+    "TYP": "FY",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1954",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "103",
+    "NAME": "JAN MOLSEN",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1925",
+    "BILD": true
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "105",
+    "NAME": "WAPPEN VON HAMBURG (III)",
+    "TYP": "PA",
+    "LAND": "D",
+    "ST": "",
+    "JAHR": "1965",
+    "BILD": false
+  },
+  {
+    "SERIE": "CM-W",
+    "NR": "150",
+    "NAME": "HOLLAND",
+    "TYP": "TD",
+    "LAND": "NL",
+    "ST": "",
+    "JAHR": "1902",
+    "BILD": true
+  }
 ]

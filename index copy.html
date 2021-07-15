@@ -345,13 +345,13 @@
     </header>
     <main>
         <h3>Serien:<br />
-            <a href="#CM">CM</a>
+            <a href="#CM" onclick="loadPrev('CM')">CM</a>
             &nbsp;&nbsp;
-            <a href="#CM-KR">CM-KR</a>
+            <a href="#CM-KR" onclick="loadPrev('CM-KR')">CM-KR</a>
             &nbsp;&nbsp;
-            <a href="#CM-P">CM-P</a>
+            <a href="#CM-P" onclick="loadPrev('CM-P')">CM-P</a>
             &nbsp;&nbsp;
-            <a href="#CM-W">CM-W</a>
+            <a href="#CM-W" onclick="loadPrev('CM-W')">CM-W</a>
             &nbsp;&nbsp;
             <a href="#CM-SOND">CM-SOND</a>
         </h3>
@@ -381,9 +381,13 @@
     <script type="text/javascript" charset="utf-8">
         let ships = [];
         let prevPageY = Math.floor(window.pageYOffset);
+        let scrollHeight = 0;
+        let views = 0;
+        let imgs = [];
+        let listNum = 0;
         let table = document.querySelector('table');
         let tbody = document.querySelector('tbody');
-        /* top scroller */
+        /* scroll to top */
         function scrollTop() {
                 if ( prevPageY > 100 && window.pageYOffset >= prevPageY) {
                     document.querySelector('.top').style.visibility = 'visible';
@@ -392,8 +396,8 @@
                 };
             prevPageY = Math.floor(window.pageYOffset);
         }
-        /* data loader */
-        function dataLoaded(arr) {
+        /* load data */
+        function loadData(arr) {
             for(let i = 0; i < arr.length; i++) {
                 let tr = document.createElement('tr');
                 if (arr[i].NR === '') {
@@ -408,125 +412,165 @@
                         let td = document.createElement('td');
                         if (arr[i][key] !== arr[i]['SERIE'] && arr[i][key] !== arr[i]['BILD']) {
                             td.innerText = arr[i][key];
-                            tr.appendChild(td)
+                            tr.appendChild(td);
                         };
                     };
+                    /* set link to image */
                     let td = document.createElement('td');
-                    // set link to image
-                    if (arr[i]['BILD'] == true) {
-                        let img = new Image();
-                        img.setAttribute('data-src', `/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_klein/${arr[i]['SERIE']}_${arr[i]['NR']}_kl.jpg`)
-                        img.id = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
-                        if (i < 20) {
-                            img.className = 'fade-in prev';
-                        } else {
-                            img.className = 'fade-in prev lazy';
-                        }
-                        img.alt = `${arr[i]['NAME']}`;
-                        /* image link */ 
-                        let a = document.createElement('a');
-                        let pic = new Image();
-                        pic.src = '/imgs/icon_pic.svg';
-                        pic.className = 'pic';
-                        a.appendChild(pic);
-                        a.setAttribute('href',`/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_gross/${arr[i]['SERIE']}_${arr[i]['NR']}_gr.jpg`);
-                        a.className = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
-                        a.appendChild(img);
-                        /* event handler */
-                        if (a.addEventListener) {
-                            /* mobile */
-                            a.addEventListener('touchstart', function(e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            a.addEventListener('touchend', function(e) {
-                                document.addEventListener('touchstart', function(e) {
-                                    hideImg(e, img, arr[i]);
-                                    document.removeEventListener('touchstart', hideImg);
+                    let img = new Image();
+                    img.src = `/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_klein/${arr[i]['SERIE']}_${arr[i]['NR']}_kl.jpg`;
+                    img.id = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
+                    img.className = 'fade-in prev';
+                    img.alt = `${arr[i]['NAME']}`;
+                    img.onload = function() {
+                        if (img) {
+                            /* image link */
+                            let a = document.createElement('a');
+                            let pic = new Image();
+                            pic.src = '/imgs/icon_pic.svg';
+                            pic.className = 'pic';
+                            a.appendChild(pic);
+                            a.setAttribute('href',`/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_gross/${arr[i]['SERIE']}_${arr[i]['NR']}_gr.jpg`);
+                            a.className = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
+                            // a.appendChild(img);
+                            imgs.push(img);
+                            /* event handler */
+                            if (a.addEventListener) {
+                                /* mobile */
+                                a.addEventListener('touchstart', function(e) {
+                                    e.preventDefault();
+                                    img.style.display = 'block';
                                 });
-                            }, true);
-                            /* desktop */
-                            a.addEventListener('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            a.addEventListener('mouseout', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'none';
-                            });
-                        } else if (a.attachEvent) {
-                            /* mobile */
-                            a.attachEvent('touchstart', function(e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            a.attachEvent('touchend', function(e) {
-                                document.addEventListener('touchstart', function(e) {
-                                    hideImg(e, img, arr[i]);
-                                    document.removeEventListener('touchstart', hideImg);
+                                a.addEventListener('touchend', function(e) {
+                                    document.addEventListener('touchstart', function(e) {
+                                        hideImg(e, img, arr[i]);
+                                        document.removeEventListener('touchstart', hideImg);
+                                    });
+                                }, true);
+                                /* desktop */
+                                a.addEventListener('mouseover', function (e) {
+                                    e.preventDefault();
+                                    img.style.display = 'block';
                                 });
-                            }, true);
-                            /* desktop */
-                            a.attachEvent('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'block';
-                            });
-                            a.attachEvent('mouseout', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'none';
-                            });
+                                a.addEventListener('mouseout', function (e) {
+                                    e.preventDefault();
+                                    img.style.display = 'none';
+                                });
+                            } else if (a.attachEvent) {
+                                /* mobile */
+                                a.attachEvent('touchstart', function(e) {
+                                    e.preventDefault();
+                                    img.style.display = 'block';
+                                });
+                                a.attachEvent('touchend', function(e) {
+                                    document.addEventListener('touchstart', function(e) {
+                                        hideImg(e, img, arr[i]);
+                                        document.removeEventListener('touchstart', hideImg);
+                                    });
+                                }, true);
+                                /* desktop */
+                                a.attachEvent('mouseover', function (e) {
+                                    e.preventDefault();
+                                    img.style.display = 'block';
+                                });
+                                a.attachEvent('mouseout', function (e) {
+                                    e.preventDefault();
+                                    img.style.display = 'none';
+                                });
+                            };
+                            if (img.addEventListener) {
+                                /* mobile */
+                                img.addEventListener('touchstart', function(e) {
+                                    e.preventDefault();
+                                    e.target.style.display = 'none';
+                                    handlePopup(arr[i]);
+                                });
+                                /* desktop */
+                                img.addEventListener('click', function(e) {
+                                    e.preventDefault();
+                                    handlePopup(arr[i]);
+                                });
+                                img.addEventListener('mouseover', function (e) {
+                                    e.preventDefault();
+                                    img.style.cursor = 'zoom-in';
+                                });
+                                a.addEventListener('mouseout', function (e) {
+                                    e.preventDefault();
+                                    img.style.display = 'none';
+                                });
+                            } else if (img.attachEvent) {
+                                /* mobile */
+                                img.attachEvent('touchstart', function(e) {
+                                    e.preventDefault();
+                                    e.target.style.display = 'none';
+                                    handlePopup(arr[i]);
+                                });
+                                /* desktop */
+                                img.attachEvent('click', function(e) {
+                                    e.preventDefault();
+                                    handlePopup(arr[i]);
+                                });
+                                img.attachEvent('mouseover', function (e) {
+                                    e.preventDefault();
+                                    img.style.cursor = 'zoom-in';
+                                });
+                            };
+                            td.appendChild(a);
                         };
-                        if (img.addEventListener) {
-                            /* mobile */
-                            img.addEventListener('touchstart', function(e) {
-                                e.preventDefault();
-                                e.target.style.display = 'none';
-                                handlePopup(arr[i]);
-                            });
-                            /* desktop */
-                            img.addEventListener('click', function(e) {
-                                e.preventDefault();
-                                handlePopup(arr[i]);
-                            });
-                            img.addEventListener('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.cursor = 'zoom-in';
-                            });
-                            a.addEventListener('mouseout', function (e) {
-                                e.preventDefault();
-                                img.style.display = 'none';
-                            });
-                        } else if (img.attachEvent) {
-                            /* mobile */
-                            img.attachEvent('touchstart', function(e) {
-                                e.preventDefault();
-                                e.target.style.display = 'none';
-                                handlePopup(arr[i]);
-                            });
-                            /* desktop */
-                            img.attachEvent('click', function(e) {
-                                e.preventDefault();
-                                handlePopup(arr[i]);
-                            });
-                            img.attachEvent('mouseover', function (e) {
-                                e.preventDefault();
-                                img.style.cursor = 'zoom-in';
-                            });
-                        };
-                        td.appendChild(a);
-                    };
+                    }
                     tr.appendChild(td);
                 };
                 tbody.appendChild(tr);
             };
             table.appendChild(tbody);
         }
+        /* preview handler */
+        function PrevLoaded(num, count) {
+            const List = tbody.children;
+            if (count < 0) {
+                for (let i = num; i > num + count && i < ships.length; i--) {
+                    if (List[i].childElementCount > 1 && List[i].lastElementChild.innerHTML !== '') {
+                        for (let x = 0; x < imgs.length; x++) {
+                            if (List[i].lastElementChild.firstElementChild.classList[0] !== null
+                                && imgs[x].id === List[i].lastElementChild.firstElementChild.classList[0]) 
+                      
+                                {
+                                List[i].lastElementChild.firstElementChild.appendChild(imgs[x]);
+                            };
+                        };
+                    };
+                };
+            } else {
+                for (let i = num; i < num + count && i < ships.length; i++) {
+                    if (List[i].childElementCount > 1 && List[i].lastElementChild.innerHTML != "") {
+                        for (let x = 0; x < imgs.length; x++) {
+                            if (imgs[x].id === List[i].lastElementChild.firstElementChild.classList[0]) {
+                                List[i].lastElementChild.firstElementChild.appendChild(imgs[x]);
+                            };
+                        };
+                    };
+                };
+            };
+        }
+        /* Hyperlink Preview handler */
+        function loadPrev(id) {
+            const Hyperlink = document.querySelector(`#${id}`);
+            views = 40;
+            prevPageY = Math.floor(window.pageYOffset);
+            for (item of tbody.children) {
+                if (item.firstElementChild.id === id) {
+                    const Idx = item.rowIndex;
+                    PrevLoaded(Idx, views);
+                    scrollHeight = Idx;
+                };
+            };
+        }
         /* image handler */
         function hideImg(evt, el, item) {
             if (evt.target.classList.contains('pic') || evt.target.classList.contains(`${item['SERIE']}-${item['NR']}`) && evt.target.nextSibling.style.display === 'block') {
                 return;
             } else {
-                el.style.visibility = 'hidden';
+                el.style.display = 'none';
             };
         }
         /* popup handler */
@@ -567,40 +611,32 @@
         xhr.onload = function () {
             if (xhr.status === 200) {
                 ships = JSON.parse(xhr.response);
-                dataLoaded(ships);
+                loadData(ships);
             } else {
                 reject('connection problem');
             };
         }
-        document.addEventListener("DOMContentLoaded", function() {
-            var lazyloadImgs = document.getElementsByClassName("lazy");    
-            var lazyloadTimeout;
-            /* image loader */
-            function lazyload () {
-                if(lazyloadTimeout) {
-                    clearTimeout(lazyloadTimeout);
-                }    
-                // throttle lazy load
-                lazyloadTimeout = setTimeout(function() {
-                    var scrollTop = window.pageYOffset;
-                    for (let img of lazyloadImgs) {
-                        if(img.offsetTop < (window.innerHeight + scrollTop)) {
-                            img.src = img.dataset.src;
-                            img.classList.remove('lazy');
-                        }
-                    }
-                    if(lazyloadImgs.length == 0) { 
-                        document.removeEventListener("scroll", lazyload);
-                        window.removeEventListener("resize", lazyload);
-                        window.removeEventListener("orientationChange", lazyload);
-                    }
-                }, 20);
-            }
-            // delete lazy load
-            document.addEventListener("scroll", lazyload);
-            window.addEventListener("resize", lazyload);
-            window.addEventListener("orientationChange", lazyload);
-        });
+        /* scroll hanlder */
+        window.onscroll = function() {
+            scrollTop();
+            let currPageY = window.pageYOffset
+            if (prevPageY < currPageY && currPageY > scrollHeight) {
+                if (views === 0) {
+                    views = 40;
+                } else {
+                    views = 13;
+                };
+                // loadData(ships, views);
+                scrollHeight += 300;
+                PrevLoaded(listNum, views);
+                listNum += views;
+            } else if (prevPageY > window.pageYOffset && currPageY < scrollHeight) {
+                views = -13;
+                scrollHeight -= 300;
+                PrevLoaded(listNum, views);
+                listNum += views;
+            };
+        }
     </script>
     <noscript>
         Javascript is disabled.
