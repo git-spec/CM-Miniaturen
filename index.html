@@ -141,7 +141,7 @@
             right: 0;
             bottom: 0;
             line-height: normal;
-            display: none;
+            visibility: hidden;
         }
         /* popup */
         .popup {
@@ -379,138 +379,149 @@
         </div>
     </footer>
     <script type="text/javascript" charset="utf-8">
-        let ships = [];
-        let prevPageY = Math.floor(window.pageYOffset);
-        let table = document.querySelector('table');
-        let tbody = document.querySelector('tbody');
+        var ships = [];
+        var intPageY = Math.floor(window.pageYOffset);
+        var table = document.querySelector('table');
+        var tbody = document.querySelector('tbody');
         /* top scroller */
-        function scrollTop() {
-                if ( prevPageY > 100 && window.pageYOffset >= prevPageY) {
+        function toTopShowed() {
+                if ( intPageY > 100 && window.pageYOffset >= intPageY) {
                     document.querySelector('.top').style.visibility = 'visible';
                 } else {
                     document.querySelector('.top').style.visibility = 'hidden';
                 };
-            prevPageY = Math.floor(window.pageYOffset);
+            intPageY = Math.floor(window.pageYOffset);
         }
         /* data loader */
         function dataLoaded(arr) {
-            for(let i = 0; i < arr.length; i++) {
-                let tr = document.createElement('tr');
-                if (arr[i].NR === '') {
-                    let td = document.createElement('td');
-                    td.innerText = arr[i].SERIE;
-                    td.setAttribute('colspan', '7');
-                    td.id = arr[i].SERIE;
-                    tr.appendChild(td);
+            for(var i = 0; i < arr.length; i++) {
+                var tr = document.createElement('tr');
+                var temp = arr[i];
+                if (temp.NR === '') {
+                    var tdHeadline = document.createElement('td');
+                    tdHeadline.innerText = temp.SERIE;
+                    tdHeadline.setAttribute('colspan', '7');
+                    tdHeadline.id = temp.SERIE;
+                    tr.appendChild(tdHeadline);
                     tbody.appendChild(tr);
                 } else {
-                    for (let key in arr[i]) {
-                        let td = document.createElement('td');
-                        if (arr[i][key] !== arr[i]['SERIE'] && arr[i][key] !== arr[i]['BILD']) {
-                            td.innerText = arr[i][key];
-                            tr.appendChild(td)
+                    for (var key in temp) {
+                        var tdValue = document.createElement('td');
+                        if (temp[key] !== temp['SERIE'] && temp[key] !== temp['BILD']) {
+                            tdValue.innerText = temp[key];
+                            tr.appendChild(tdValue)
                         };
                     };
-                    let td = document.createElement('td');
+                    var td = document.createElement('td');
                     // set link to image
-                    if (arr[i]['BILD'] == true) {
-                        let img = new Image();
-                        img.setAttribute('data-src', `/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_klein/${arr[i]['SERIE']}_${arr[i]['NR']}_kl.jpg`)
-                        img.id = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
+                    if (temp['BILD'] == true) {
+                        const Img = new Image();
+                        Img.setAttribute('data-src', `/imgs/${temp['SERIE']}/${temp['SERIE']}_klein/${temp['SERIE']}_${temp['NR']}_kl.jpg`)
+                        Img.id = `${temp['SERIE']}-${temp['NR']}`;
                         if (i < 20) {
-                            img.className = 'fade-in prev';
+                            Img.className = 'fade-in prev';
                         } else {
-                            img.className = 'fade-in prev lazy';
+                            Img.className = 'fade-in prev lazy';
                         }
-                        img.alt = `${arr[i]['NAME']}`;
+                        Img.alt = `${temp['NAME']}`;
                         /* image link */ 
-                        let a = document.createElement('a');
-                        let pic = new Image();
+                        var a = document.createElement('a');
+                        var pic = new Image();
                         pic.src = '/imgs/icon_pic.svg';
                         pic.className = 'pic';
                         a.appendChild(pic);
-                        a.setAttribute('href',`/imgs/${arr[i]['SERIE']}/${arr[i]['SERIE']}_gross/${arr[i]['SERIE']}_${arr[i]['NR']}_gr.jpg`);
-                        a.className = `${arr[i]['SERIE']}-${arr[i]['NR']}`;
-                        a.appendChild(img);
+                        a.setAttribute('href',`/imgs/${temp['SERIE']}/${temp['SERIE']}_gross/${temp['SERIE']}_${temp['NR']}_gr.jpg`);
+                        a.className = `${temp['SERIE']}-${temp['NR']}`;
+                        a.appendChild(Img);
                         /* event handler */
                         if (a.addEventListener) {
                             /* mobile */
                             a.addEventListener('touchstart', function(e) {
                                 e.preventDefault();
-                                img.style.display = 'block';
+                                for (var z = 0; z < document.getElementsByTagName('img').length; z++) {
+                                    if (document.getElementsByTagName('img')[z].style.visibility === 'visible') {
+                                        document.getElementsByTagName('img')[z].style.visibility = 'hidden';
+                                    };
+                                };
+                                Img.style.visibility = 'visible';
                             });
                             a.addEventListener('touchend', function(e) {
                                 document.addEventListener('touchstart', function(e) {
-                                    hideImg(e, img, arr[i]);
-                                    document.removeEventListener('touchstart', hideImg);
+                                    imgHidden(e, Img, temp);
+                                    document.removeEventListener('touchstart', imgHidden);
                                 });
                             }, true);
                             /* desktop */
                             a.addEventListener('mouseover', function (e) {
                                 e.preventDefault();
-                                img.style.display = 'block';
+                                Img.style.visibility = 'visible';
                             });
                             a.addEventListener('mouseout', function (e) {
                                 e.preventDefault();
-                                img.style.display = 'none';
+                                Img.style.visibility = 'hidden';
                             });
                         } else if (a.attachEvent) {
                             /* mobile */
                             a.attachEvent('touchstart', function(e) {
                                 e.preventDefault();
-                                img.style.display = 'block';
+                                for (var z = 0; z < document.getElementsByTagName('img').length; z++) {
+                                    if (document.getElementsByTagName('img')[z].style.visibility === 'visible') {
+                                        document.getElementsByTagName('img')[z].style.visibility = 'hidden';
+                                    };
+                                };
+                                Img.style.visibility = 'visible';
                             });
                             a.attachEvent('touchend', function(e) {
                                 document.addEventListener('touchstart', function(e) {
-                                    hideImg(e, img, arr[i]);
-                                    document.removeEventListener('touchstart', hideImg);
+                                    imgHidden(e, Img, temp);
+                                    document.removeEventListener('touchstart', imgHidden);
                                 });
                             }, true);
                             /* desktop */
                             a.attachEvent('mouseover', function (e) {
                                 e.preventDefault();
-                                img.style.display = 'block';
+                                Img.style.visibility = 'visible';
                             });
                             a.attachEvent('mouseout', function (e) {
                                 e.preventDefault();
-                                img.style.display = 'none';
+                                Img.style.visibility = 'hidden';
                             });
                         };
-                        if (img.addEventListener) {
+                        if (Img.addEventListener) {
                             /* mobile */
-                            img.addEventListener('touchstart', function(e) {
+                            Img.addEventListener('touchstart', function(e) {
                                 e.preventDefault();
-                                e.target.style.display = 'none';
-                                handlePopup(arr[i]);
+                                e.target.style.visibility = 'hidden';
+                                popupShowed(temp);
                             });
                             /* desktop */
-                            img.addEventListener('click', function(e) {
+                            Img.addEventListener('click', function(e) {
                                 e.preventDefault();
-                                handlePopup(arr[i]);
+                                popupShowed(temp);
                             });
-                            img.addEventListener('mouseover', function (e) {
+                            Img.addEventListener('mouseover', function (e) {
                                 e.preventDefault();
-                                img.style.cursor = 'zoom-in';
+                                Img.style.cursor = 'zoom-in';
                             });
                             a.addEventListener('mouseout', function (e) {
                                 e.preventDefault();
-                                img.style.display = 'none';
+                                Img.style.visibility = 'hidden';
                             });
-                        } else if (img.attachEvent) {
+                        } else if (Img.attachEvent) {
                             /* mobile */
-                            img.attachEvent('touchstart', function(e) {
+                            Img.attachEvent('touchstart', function(e) {
                                 e.preventDefault();
-                                e.target.style.display = 'none';
-                                handlePopup(arr[i]);
+                                e.target.style.visibility = 'hidden';
+                                popupShowed(temp);
                             });
                             /* desktop */
-                            img.attachEvent('click', function(e) {
+                            Img.attachEvent('click', function(e) {
                                 e.preventDefault();
-                                handlePopup(arr[i]);
+                                popupShowed(temp);
                             });
-                            img.attachEvent('mouseover', function (e) {
+                            Img.attachEvent('mouseover', function (e) {
                                 e.preventDefault();
-                                img.style.cursor = 'zoom-in';
+                                Img.style.cursor = 'zoom-in';
                             });
                         };
                         td.appendChild(a);
@@ -522,7 +533,7 @@
             table.appendChild(tbody);
         }
         /* image handler */
-        function hideImg(evt, el, item) {
+        function imgHidden(evt, el, item) {
             if (evt.target.classList.contains('pic') || evt.target.classList.contains(`${item['SERIE']}-${item['NR']}`) && evt.target.nextSibling.style.display === 'block') {
                 return;
             } else {
@@ -530,18 +541,18 @@
             };
         }
         /* popup handler */
-        function handlePopup(item) {
-            let popup = document.createElement('div');
+        function popupShowed(item) {
+            var popup = document.createElement('div');
             popup.className = 'popup fade-in';
-            let popupWrapper = document.createElement('div');
-            let popupImg = new Image();
+            var popupWrapper = document.createElement('div');
+            var popupImg = new Image();
             popupImg.src = `/imgs/${item['SERIE']}/${item['SERIE']}_gross/${item['SERIE']}_${item['NR']}_gr.jpg`;
             popupWrapper.appendChild(popupImg);
             /* close button */
-            let btnClose = document.createElement('span');
+            var btnClose = document.createElement('span');
             btnClose.className = 'close';
-            let bar1 = document.createElement('div');
-            let bar2 = document.createElement('div');
+            var bar1 = document.createElement('div');
+            var bar2 = document.createElement('div');
             btnClose.appendChild(bar1);
             btnClose.appendChild(bar2);
             popupWrapper.appendChild(btnClose);
@@ -557,11 +568,11 @@
                     popup.remove();
                 });
             };
-            let body = document.querySelector('body');
+            var body = document.querySelector('body');
             body.appendChild(popup);
         }
         /* data Loader */
-        let xhr = new XMLHttpRequest();
+        var xhr = new XMLHttpRequest();
         xhr.open('GET', '/data/beispielliste_cm.json');
         xhr.send();
         xhr.onload = function () {
@@ -572,28 +583,34 @@
                 reject('connection problem');
             };
         }
+        /* image loader */
         document.addEventListener("DOMContentLoaded", function() {
-            var lazyloadImgs = document.getElementsByClassName("lazy");    
             var lazyloadTimeout;
-            /* image loader */
+            /* lazy loader */
             function lazyload () {
                 if(lazyloadTimeout) {
                     clearTimeout(lazyloadTimeout);
-                }    
+                };
                 // throttle lazy load
                 lazyloadTimeout = setTimeout(function() {
-                    var scrollTop = window.pageYOffset;
-                    for (let img of lazyloadImgs) {
-                        if(img.offsetTop < (window.innerHeight + scrollTop)) {
-                            img.src = img.dataset.src;
-                            img.classList.remove('lazy');
-                        }
-                    }
-                    if(lazyloadImgs.length == 0) { 
+                    var lazyloadImgs = document.querySelectorAll('img.lazy');
+                    for (var y = 0; y < lazyloadImgs.length; y++) {
+                        if (lazyloadImgs[y].parentElement.parentElement.parentElement.offsetTop 
+                            + lazyloadImgs[y].parentElement.parentElement.parentElement.parentElement.parentElement.offsetTop
+                            >  window.pageYOffset
+                            && lazyloadImgs[y].parentElement.parentElement.parentElement.offsetTop 
+                            + lazyloadImgs[y].parentElement.parentElement.parentElement.parentElement.parentElement.offsetTop 
+                            < (window.innerHeight + window.pageYOffset)) 
+                        {
+                            lazyloadImgs[y].src = lazyloadImgs[y].dataset.src;
+                            lazyloadImgs[y].classList.remove('lazy');
+                        };
+                    };
+                    if (lazyloadImgs.length == 0) { 
                         document.removeEventListener("scroll", lazyload);
                         window.removeEventListener("resize", lazyload);
                         window.removeEventListener("orientationChange", lazyload);
-                    }
+                    };
                 }, 20);
             }
             // delete lazy load
@@ -601,6 +618,10 @@
             window.addEventListener("resize", lazyload);
             window.addEventListener("orientationChange", lazyload);
         });
+        /* scroll hanlder */
+        window.onscroll = function() {
+            toTopShowed();
+        }
     </script>
     <noscript>
         Javascript is disabled.
